@@ -1,0 +1,14 @@
+{
+    "responsive-layout.desktop#desktop__home": {
+        "title": "Home Desktop",
+        "children": [
+            "flex-layout.row#global__home--section-one",
+            "flex-layout.row#global__container-home--section-two"
+            
+        ],
+        "props":{
+            "blockClass":"desktop__home"
+        }
+        
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "sticky-layout#mobile__header": {
+        "props": {
+            "blockClass": "mobile__header"
+        },
+        "children": [
+            "flex-layout.row#mobile",
+            "flex-layout.row#global__header--categories"
+        ]
+    },
+    "flex-layout.row#mobile": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "main-header-mobile",
+            "preventHorizontalStretch": true,
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#1-mobile",//LLamada al menu ha,burgesa que es global
+            "flex-layout.col#logo-mobile",
+            "flex-layout.col#global__navbar--spacer",
+            // "search-bar",
+            "minicart.v2",
+            "login"
+            
+        ]
+        
+    },
+     //Columna para centrar el logo
+     "flex-layout.col#logo-mobile": {
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "logo#global__navbar--logo"
+        ]
+    },
+
+      //columna para centrar el drawer
+      "flex-layout.col#1-mobile": {
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "flex-layout.row#1-mobile"
+        ]
+    }
+   
+}

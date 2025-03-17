@@ -1,0 +1,139 @@
+{
+    "sticky-layout#desktop__container-header": {
+        "title": "Contenedor Header Desktop",
+        "props": {
+            "blockClass": "desktop__container-header"
+        },
+        "children": [
+            "flex-layout.row#desktop__header--navbar",
+            "flex-layout.row#global__header--categories"
+        ]
+    },
+    "flex-layout.row#desktop__header--navbar": {
+        "props": {
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "verticalAlign": "middle",
+            "blockClass": "desktop__header--navbar"
+        },
+        "children": [
+            "flex-layout.col#desktop__navbar--menu", //LLamada al menu ha,burgesa que es global
+            "flex-layout.col#desktop__navbar--logo",
+            "search-bar",
+            "flex-layout.col#desktop__navbar--contenedor-recomendados",
+            "minicart.v2",
+            "login"
+        ]
+    },
+    //Columna para centrar el logo
+    "flex-layout.col#desktop__navbar--logo": {
+        "props": {
+            "blockClass": [
+                "desktop__navbar--logo"
+            ],
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "logo#global__navbar--logo"
+        ]
+    },
+    //columna para centrar el mega menu
+    "flex-layout.col#desktop__navbar--menu": {
+        "props": {
+            "blockClass": [
+                "desktop__navbar--menu"
+            ],
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "sticky-layout#4-desktop"
+        ]
+    },
+    //columna para centrar las recomendados
+    "flex-layout.col#desktop__navbar--contenedor-recomendados": {
+        "title": "Contenedor de Recomendados Desktop",
+        "props": {
+            "blockClass": [
+                "desktop__container-navbar"
+            ],
+            "verticalAlign": "middle",
+            "preventHorizontalStretch": false,
+            "width": "grow"
+        },
+        "children": [
+            "flex-layout.row#desktop__recomendados--elemento"
+        ]
+    },
+    "flex-layout.row#desktop__recomendados--elemento": {
+        "title": "Elementos recomendados Desktop",
+        "props": {
+            "blockClass": [
+                "desktop__recomendados--elementos"
+            ]
+        },
+        "children": [
+            "link.product#desktop__elemento--tendencias",
+            "link.product#desktop__elemento--coleccion",
+            "link.product#desktop__elemento--ofertas",
+            "link.product#desktop__elemento--cyber",
+            "link.product#desktop__elemento--never"
+        ]
+    },
+    //Links de Tenderncias del Header
+    "link.product#desktop__elemento--tendencias": {
+        "title": "Link Tendencias ITGlobers",
+        "props": {
+            "href": "#",
+            "label": "Tendencias de ITGlobers",
+            "blockClass": ["desktop__elemento",
+                "desktop__elemento--tendencias"
+            ]
+        }
+    },
+    //Links de Colección del mes del Header
+    "link.product#desktop__elemento--coleccion": {
+        "title": "Link Coleccion del mes",
+        "props": {
+            "href": "#",
+            "label": "Colección del mes",
+            "blockClass": ["desktop__elemento",
+                "desktop__elemento--coleccion"
+            ]
+        }
+    },
+    //Links de Ofertas enero del Header
+    "link.product#desktop__elemento--ofertas": {
+        "title": "Link ofertas",
+        "props": {
+            "href": "#",
+            "label": "Ofertas enero",
+            "blockClass": ["desktop__elemento",
+                "desktop__elemento--ofertas"
+            ]
+        }
+    },
+    //Links de Cyber Monday del Header
+    "link.product#desktop__elemento--cyber": {
+        "title": "Link cyber monday",
+        "props": {
+            "href": "#",
+            "label": "Cyber Monday",
+            "blockClass": ["desktop__elemento",
+                "desktop__elemento--cyber"
+            ]
+        }
+    },
+    //Links de Never say never del Header
+    "link.product#desktop__elemento--never": {
+        "title": "Link never say never",
+        "props": {
+            "href": "#",
+            "label": "Never say never",
+            "blockClass": ["desktop__elemento",
+                "desktop__elemento--never"
+            ]
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+ "flex-layout.row#global__home--section-one": {
+    "title": "Contenedor Seccion 1 Home",
+   "children": [
+        "list-context.image-list#global__section-one--banner"
+     ],"props": {
+        "blockClass": "global__home-section-one"
+     }
+ },
+    "list-context.image-list#global__section-one--banner": {
+        "title": "Banner Global",
+        "children": [
+            "slider-layout#global__banner--images"
+        ],
+        "props": {
+            
+            "blockClass": "global_home-banner",
+            "images": [
+                {
+                    "image": "assets/img/HeroBanner/HeroDesktop.png",
+                    "description1": "Hero Banner iWatch Ultra 2",
+                    "link1": {
+                        "url": "#"
+                    },
+                    "mobileImage":"assets/img/HeroBanner/HeroMobile.png",
+                    "description": "Hero Banner iWatch Ultra 2",
+                    "link": {
+                        "url": "#"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#global__banner--images": {
+        "title": "Distribucion Imagenes Por Pantalla",
+        "props": {
+            "blockClass": "global__home-banner--images",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true
+        }
+    }
+}

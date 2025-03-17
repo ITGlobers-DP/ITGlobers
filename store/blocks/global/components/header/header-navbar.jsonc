@@ -1,0 +1,19 @@
+{
+    "flex-layout.col#global__navbar--spacer": {
+        "props": {
+             "width": "grow"
+         }
+     },
+    "logo#global__navbar--logo": {
+        "title": "Logo Barra de Navegacion Global",
+        "props": {
+            "blockClass": [
+                "global__navbar--logo"
+            ],
+            "title": "Logo",
+            "href": "#",
+            "url": "assets/svg/header/logo.svg",
+            "width": "32"
+        }
+    }
+}

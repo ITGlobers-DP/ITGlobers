@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#tablet__Prueba": {
+        "children": [
+            "rich-text#Prueba__text"
+        ]
+    },
+    "rich-text#Prueba__text":{
+        "title": "Favoritos",
+        "props": {
+            "text": "Favoritos Tablet",
+            "font": "t-heading-2"
+        }
+    }
+}

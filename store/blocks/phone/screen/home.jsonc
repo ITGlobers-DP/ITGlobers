@@ -1,0 +1,8 @@
+{
+    "responsive-layout.phone#phone__home": {
+        "title": "HOME Tablet",
+        "children": [
+            "flex-layout.row#phone__Prueba"
+        ]
+    }
+}
