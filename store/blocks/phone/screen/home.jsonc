@@ -2,7 +2,19 @@
     "responsive-layout.phone#phone__home": {
         "title": "HOME Tablet",
         "children": [
-            "flex-layout.row#phone__Prueba"
+            // "flex-layout.row#phone__Prueba"
         ]
+    },
+    "flex-layout.row#phone__Prueba": {
+        "children": [
+            "rich-text#Prueba__text--phone"
+        ]
+    },
+    "rich-text#Prueba__text--phone":{
+        "title": "Favoritos",
+        "props": {
+            "text": "Favoritos phone",
+            "font": "t-heading-2"
+        }
     }
 }

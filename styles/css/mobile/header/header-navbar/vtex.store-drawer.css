@@ -1,0 +1,23 @@
+.overlay--visible {
+    opacity: 0 !important;
+}
+
+.opened {
+    box-shadow: 1px 0 15px #0000004a !important;
+}
+
+.opened :global(.vtex-mega-menu-2-x-departmentsTitle) {
+    font-size: 12px;
+}
+
+.opened :global(.vtex-mega-menu-2-x-styledLinkText) {
+    font-size: 12px;
+}
+
+.opened :global(.vtex-mega-menu-2-x-caretIcon) {
+    display: none;
+}
+
+.opened :global(.vtex-store-drawer-0-x-closeIcon) {
+    display: none;
+}

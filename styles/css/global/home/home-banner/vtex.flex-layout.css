@@ -1,10 +1,11 @@
-.flexRow--global__home-section-one :global(.vtex-store-components-3-x-container){
-    margin: 0;
+.flexRow--global__home-section-one :global(.vtex-store-components-3-x-container) {
+    margin : 0;
     padding: 0;
-    width: 100vw;
+    width  : 100vw;
 }
 
 
-.flexRowContent--global__home-section-one{
+.flexRowContent--global__home-section-one {
     width: 100vw;
+
 }

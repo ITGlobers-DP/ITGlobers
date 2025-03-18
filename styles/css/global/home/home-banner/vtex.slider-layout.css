@@ -1,8 +1,8 @@
-.sliderLayoutContainer--global__home-banner--images{
+.sliderLayoutContainer--global__home-banner--images {
     width: 100vw;
 }
 
-.imageElement--global__home-banner--images{
+.imageElement--global__home-banner--images {
     background-color: aquamarine;
-    max-height: 480px !important;
+    max-height      : 480px !important;
 }

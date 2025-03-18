@@ -1,12 +1,14 @@
-.flexRow--global__header--categories :global(.vtex-store-components-3-x-container){
-    margin: 0;
+.flexRow--global__header--categories :global(.vtex-store-components-3-x-container) {
+    margin : 0;
     padding: 0
 }
-.flexRow--global__header--categories :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+
+.flexRow--global__header--categories :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     min-width: 70px;
     max-width: 70px;
-    height: 47px;
-    &:hover{
+    height   : 47px;
+
+    &:hover {
         border-bottom: solid 3px #1D2734;
     }
 }

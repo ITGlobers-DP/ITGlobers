@@ -1,4 +1,6 @@
-.container--mobile__header{
+.container--mobile__header {
     background-color: #FFFFFF;
-    padding: 24px 16px 0 16px;
+    padding         : 24px 16px 0 16px;
+    box-shadow      : 0px 1px 15px #0000004a;
+    margin-bottom   : 100px;
 }

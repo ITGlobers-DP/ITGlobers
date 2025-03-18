@@ -1,0 +1,51 @@
+.flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-menuContainerNav) {
+    background-color: #FFFFFF;
+    width           : 300px;
+}
+
+/*Titulos del Menu*/
+/* .flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-menuContainerNav .fw7){
+    background-color: #FFFFFF;
+    width: 300px;
+} */
+.flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-menuItem) {
+    &:hover {
+        background-color: #FFE6D3;
+        border-left     : solid #FF8324 4px;
+    }
+
+}
+
+.flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-styledLink) {
+    font-size: 12px;
+
+}
+
+.flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-menuContainer) {
+    border: none;
+
+}
+
+.flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-submenuContainer) {
+    background-color  : #FFE6D3;
+    border            : none;
+    overflow          : auto;
+    scrollbar-width   : none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+}
+
+.flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-caretIcon) {
+    display: none;
+
+}
+
+
+.flexCol--desktop__navbar--menu :global(.vtex-sticky-layout-0-x-container) {
+
+    position: static;
+}

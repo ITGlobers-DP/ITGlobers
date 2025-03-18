@@ -1,5 +1,8 @@
-.imageElement--global__frame--image{
-    width: 36.14px;
-    height: 36.14px;
+.imageElement--global__frame--image {
+    width : 70%;
+    height: 70%;
 }
 
+.imageElement--global__cardelement--image {
+    width: 100%;
+}

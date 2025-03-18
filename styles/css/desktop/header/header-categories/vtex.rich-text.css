@@ -1,12 +1,11 @@
-
-.paragraph--global__categories--text{
+.paragraph--global__categories--text {
 
     font-size: 12px;
-    margin: 0;
-    
+    margin   : 0;
+
 }
 
-.link--global__categories--text{
+.link--global__categories--text {
     text-decoration: none;
-    color: #1D2734;
+    color          : #1D2734;
 }

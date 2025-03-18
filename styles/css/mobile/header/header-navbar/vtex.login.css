@@ -1,21 +1,24 @@
-.container :global(.vtex-button__label){
-padding: 0;
-}
-.container :global(.vtex-button):hover{
-background-color: transparent;
-}
-.container :global(.vtex-button__label){
-    height: 40px;
-    width: 80px;
-    border-radius: 40px;
-    background-color: black;
-    text-align: center;
-    margin-left: 16px;
-}
-.label{
+.container :global(.vtex-button__label) {
     padding: 0;
+}
+
+.container :global(.vtex-button):hover {
+    background-color: transparent;
+}
+
+.container :global(.vtex-button__label) {
+    height          : 40px;
+    width           : 80px;
+    border-radius   : 40px;
+    background-color: black;
+    text-align      : center;
+    margin-left     : 16px;
+}
+
+.label {
+    padding       : 0;
     text-transform: capitalize;
-    color: #ffffff;
-    font-size: 14px;
-    display: block;
+    color         : #ffffff;
+    font-size     : 14px;
+    display       : block;
 }

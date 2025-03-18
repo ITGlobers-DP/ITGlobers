@@ -1,11 +1,12 @@
-.link--desktop__elemento{
+.link--desktop__elemento {
     text-decoration: none;
-    text-align: center;
-    width: auto;
-    color: #1D2734;
-    font-size: 12px;
-    font-weight: 400;
-    &:hover{
+    text-align     : center;
+    width          : auto;
+    color          : #1D2734;
+    font-size      : 12px;
+    font-weight    : 400;
+
+    &:hover {
         text-decoration: underline black;
     }
 }
