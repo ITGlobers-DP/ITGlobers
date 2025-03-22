@@ -14,7 +14,9 @@
     background-color: #FFFFFF;
     width           : 300px;
 }
-
+.flexRowContent--desktop__header--navbar .flexColChild--desktop__navbar--menu{
+    height: 18px !important;
+}
 /*Titulos del Menu*/
 /* .flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-menuContainerNav .fw7){
     background-color: #FFFFFF;

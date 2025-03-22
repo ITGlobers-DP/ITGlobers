@@ -20,7 +20,7 @@
             "flex-layout.col#1-mobile",//LLamada al menu ha,burgesa que es global
             "flex-layout.col#logo-mobile",
             "flex-layout.col#global__navbar--spacer",
-            // "search-bar",
+            "search-bar",
             "minicart.v2",
             "login#global__login"
             

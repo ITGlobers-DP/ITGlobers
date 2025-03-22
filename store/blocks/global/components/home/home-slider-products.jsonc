@@ -2,14 +2,34 @@
     "flex-layout.row#global__container-home--section-three": {
         "title": "Contenedor Seccion Tres Home",
         "children": [
-            "list-context.product-list#global__home--products"
+            "flex-layout.col#global__section-three--content"
         ],
         "props": {
             "blockClass": [
                 "global__container-home--section-three"
             ]
         }
-    },
+    }, "flex-layout.col#global__section-three--content": {
+        "title": "Seccion 3 Contenedor",
+        "children": [
+          "rich-text#global__content--title",
+          "list-context.product-list#global__home--products"
+        ],
+        "props": {
+          "blockClass": [
+            "global__section-two--content"
+          ]
+        }
+      },
+
+      //TEXTO DE LA SECCCION
+      "rich-text#global__content--title": {
+        "title": "Titulo contenedor",
+        "props": {
+          "text": "An amazing product.",
+          "blockClass": "home__section--title"
+        }
+      },
     "list-context.product-list#global__home--products": {
         "title": "Lista de Productos",
         "blocks": [
