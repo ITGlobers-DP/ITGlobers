@@ -4,7 +4,8 @@
     width          : auto;
     color          : #1D2734;
     font-size      : 12px;
-    font-weight    : 400;
+    font-weight    : 500;
+
 
     &:hover {
         text-decoration: underline black;

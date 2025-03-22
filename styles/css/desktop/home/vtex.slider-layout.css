@@ -1,0 +1,18 @@
+
+
+.sliderLeftArrow{
+    left: -15px;
+
+}
+.sliderRightArrow{
+    right: -15px;
+    transform: rotate(180deg);
+}
+
+
+@media screen and (min-width:1026px) and (max-width:1920px) {
+    .sliderLayoutContainer--global__content--slider{
+        position: relative;
+        padding: 0 22px;
+    }
+}  

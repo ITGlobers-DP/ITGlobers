@@ -1,9 +1,8 @@
 {
-    "responsive-layout.mobile#mobile__home": {
+    "responsive-layout.mobile#mobile__banner": {
         "title": "Home Mobile",
         "children": [
-            "flex-layout.row#global__home--section-one",
-            "flex-layout.row#global__container-home--section-two"
+            "flex-layout.row#global__home--section-one"
         ],
         "props":{
             "blockClass":"mobile__home"

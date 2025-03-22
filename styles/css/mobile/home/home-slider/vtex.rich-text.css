@@ -1,4 +1,4 @@
-.wrapper--home__infocard-slider--cardelement-text1 {
+ .wrapper--home__infocard-slider--cardelement-text1 {
     font-size  : 12px;
     font-weight: 600;
 }
@@ -11,9 +11,3 @@
     margin: 0;
 }
 
-
-@media screen and (min-width:1026) and (max-width:1920) {
-    .wrapper--home__infocard-slider--cardelement-text2 {
-        font-size: 120px !important;
-    }
-}

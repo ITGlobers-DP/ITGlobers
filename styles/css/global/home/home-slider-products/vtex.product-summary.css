@@ -1,0 +1,57 @@
+.nameContainer{
+    background-color: aqua;
+}
+
+
+.description{
+    font-size: 12px;
+    line-height: 12.8px;
+    color: #1d273492;
+    text-align: start;
+    height: 80px;
+}
+.buyButton :global(.vtex-button){
+    font-size: 10.63px;
+    color: #1D2734;
+    background-color: transparent;
+    border: solid 0.76px #1D2734;
+    text-transform: capitalize;
+    border-radius: 6.07px;
+
+}
+.buyButton :global(.vtex-button__label){
+    background-color: transparent;
+    display: block;
+    padding: 11px 0 !important;
+    font-size: 10px;
+    font-weight: 400;
+
+    position: relative;
+    visibility: hidden;
+
+
+    &::after{
+        display: block;
+        content: 'Comprar';
+        position:absolute;
+        visibility: visible;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+.priceContainer{
+    padding: 0;
+}
+
+@media screen and (min-width:1026px) and (max-width:1920px) {
+
+    .buyButton :global(.vtex-button__label){
+        background-color: transparent;
+        display: block;
+        padding: 15px 0 !important;
+    }
+    
+}

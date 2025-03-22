@@ -2,15 +2,18 @@
     padding: 0;
 }
 
-.container :global(.vtex-button):hover {
-    background-color: transparent;
+.container :global(.vtex-button) {
+
+    &:hover{background-color: transparent;}
+    &:focus{background-color: transparent;}
+    
 }
 
 .container :global(.vtex-button__label) {
     height          : 40px;
     width           : 80px;
     border-radius   : 40px;
-    background-color: black;
+    background-color: #1D2734;
     text-align      : center;
     margin-left     : 16px;
 }
@@ -21,4 +24,13 @@
     color         : #ffffff;
     font-size     : 14px;
     display       : block;
+}
+.arrowUp{
+    display: none;
+}
+
+.box{
+    width: 423px;
+    border-radius: 0 0 20px 20px; /* Solo redondea la esquina superior izquierda */
+
 }

@@ -1,0 +1,18 @@
+.flexRow--global__home-section-one :global(.vtex-store-components-3-x-container) {
+    margin : 0;
+    padding: 0;
+    width  : 100vw;
+}
+
+.flexRowContent--global__home-section-one{
+    width: 100vw;
+    margin-top: 67px;
+}
+
+
+@media screen and (min-width:1026px) and (max-width:1920px) {
+    .flexRowContent--global__home-section-one{
+        width: 100vw;
+        margin-top: 57px;
+    }
+}  

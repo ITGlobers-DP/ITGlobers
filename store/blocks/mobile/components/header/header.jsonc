@@ -22,7 +22,7 @@
             "flex-layout.col#global__navbar--spacer",
             // "search-bar",
             "minicart.v2",
-            "login"
+            "login#global__login"
             
         ]
         

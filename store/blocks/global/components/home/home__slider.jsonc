@@ -2,31 +2,32 @@
   "flex-layout.row#global__container-home--section-two": {
     "title": "Contenedor Seccion 2 Home",
     "children": [
-     "flex-layout.col#global__section-two--content"
+      "flex-layout.col#global__section-two--content"
     ],
     "props": {
       "blockClass": "global__container--home-section-two"
     }
   },
-    
   "flex-layout.col#global__section-two--content": {
     "title": "Seccion 2 Contenedor",
     "children": [
-     "rich-text#global__content--title",
-     "slider-layout#global__content--slider"
-    ]
+      "rich-text#global__content--title",
+      "slider-layout#global__content--slider"
+    ],
+    "props": {
+      "blockClass": [
+        "global__section-two--content"
+      ]
+    }
   },
-
   //TEXTO DE LA SECCCION
-
   "rich-text#global__content--title": {
     "title": "Titulo contenedor",
     "props": {
       "text": "An amazing product.",
-      "blockClass":"home__section--title"
+      "blockClass": "home__section--title"
     }
   },
-  
   //Slider contenedor
   "slider-layout#global__content--slider": {
     "title": "Content Slider Home",
@@ -36,12 +37,12 @@
         "tablet": 2,
         "phone": 1
       },
-      "infinite": false,
+      "infinite": true,
       "fullWidth": false,
       "showNavigationArrows": "desktopOnly",
       "centerMode": "to-the-left",
+      "centerModeSlidesGap": 5,
       "blockClass": "global__content--slider"
-      
     },
     "children": [
       "flex-layout.row#global__slider--infocards",
@@ -52,43 +53,38 @@
       "flex-layout.row#global__slider--infocards"
     ]
   },
-
-
   //Contenedor de las Infocards
   "flex-layout.row#global__slider--infocards": {
     "title": "Contenedor de informacion",
     "children": [
       "flex-layout.col#global__infocards--cardelement"
-    ],"props": {
+    ],
+    "props": {
       "blockClass": "global__slider--infocards",
       "fullWidth": true
     }
   },
-
-//Carta de infomacion
+  //Carta de infomacion
   "flex-layout.col#global__infocards--cardelement": {
     "title": "Carta de informacion",
     "children": [
-      
       "image#global__cardelement--image",
       "flex-layout.row#global__cardelement--frame",
       "link.product#global__cardelement--button"
     ],
     "props": {
-      "blockClass":"global__infocards--cardelement"
+      "blockClass": "global__infocards--cardelement"
     }
   },
-
-//Imagen Carta De infomacion
+  //Imagen Carta De infomacion
   "image#global__cardelement--image": {
     "title": "Imagen Carta de informacion",
     "props": {
-      "blockClass":"global__cardelement--image",
+      "blockClass": "global__cardelement--image",
       "src": "assets/img/CardElementImage.png"
     }
   },
-
-//Contenedor Frame De infomacion
+  //Contenedor Frame De infomacion
   "flex-layout.row#global__cardelement--frame": {
     "title": "Contenedor frame de informacion",
     "children": [
@@ -97,67 +93,51 @@
     ],
     "props": {
       "blockClass": "global__cardelement--frame",
-     "colSizing": "auto",
-     "preserveLayoutOnMobile":true
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true
     }
-
   },
-
-//Contenedor textos De infomacion
-  "flex-layout.col#global__frame--leading":{
+  //Contenedor textos De infomacion
+  "flex-layout.col#global__frame--leading": {
     "title": "Contenedor Textos carta de informacion",
     "children": [
       "rich-text#global__leading--text1",
       "rich-text#global__leading--text2"
-    ],"props": {
+    ],
+    "props": {
       "blockClass": "global__frame--leading"
     }
   },
-
-//Texto 1 Carta de Informacion
+  //Texto 1 Carta de Informacion
   "rich-text#global__leading--text1": {
     "title": "Texto 1 Title carta de informacion",
     "props": {
-      "blockClass":"home__infocard-slider--cardelement-text1",
+      "blockClass": "home__infocard-slider--cardelement-text1",
       "text": "Heading"
     }
   },
-
-//Texto  Carta de Informacion
+  //Texto  Carta de Informacion
   "rich-text#global__leading--text2": {
     "title": "Texto 1 Description carta de informacion",
     "props": {
-      "blockClass":"home__infocard-slider--cardelement-text2",
+      "blockClass": "home__infocard-slider--cardelement-text2",
       "text": "Builder platform is made by, buildership platform is made by..."
     }
   },
-
-
-//Imagen  De infomacion
-
-
+  //Imagen  De infomacion
   "image#global__frame--image": {
     "title": "InfoCard Frame Item",
     "props": {
-      "blockClass":"global__frame--image",
+      "blockClass": "global__frame--image",
       "src": "assets/img/ArtworkTrailing.png"
     }
   },
-
-
-//Boton De infomacion
+  //Boton De infomacion
   "link.product#global__cardelement--button": {
     "props": {
-      "blockClass":"global__cardelement--button",
+      "blockClass": "global__cardelement--button",
       "href": "#",
-      "label": "Ver precio  --->"
+      "label": "Ver precio"
     }
   }
-
-
-
-
-
-
-
 }

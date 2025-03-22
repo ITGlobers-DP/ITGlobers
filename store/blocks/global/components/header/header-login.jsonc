@@ -1,0 +1,16 @@
+{
+    "login#global__login": {
+        "props": {
+            "optionsTitle":"LOG-IN",
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "iconLabel": "Login",
+            "labelClasses": [
+                "label-btn-login"
+            ]
+        }
+    }
+}

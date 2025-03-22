@@ -1,5 +1,5 @@
 .flexCol--global__infocards--cardelement {
-    /* background-color: aquamarine; */
+
     align-items: center;
 }
 
@@ -10,11 +10,12 @@
 .flexCol--global__frame--leading {
     padding-left       : 10px;
     width              : 100px;
-    /* background-color: blueviolet; */
+
 }
 
 
 .flexCol--global__infocards--cardelement {
     background-color: #ffffff;
     border-radius   : 12px;
-}
+} 
+

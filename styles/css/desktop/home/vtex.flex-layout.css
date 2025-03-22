@@ -1,0 +1,14 @@
+
+
+@media screen and (min-width:1026px) and (max-width:1920px) {
+
+    .flexRow--global__container--home-section-two{
+        padding: 0 72px;
+    }
+
+    .flexRow--global__container-home--section-three{
+        padding: 0 72px;
+    }
+
+    
+}

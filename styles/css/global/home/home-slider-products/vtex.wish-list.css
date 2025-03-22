@@ -1,0 +1,54 @@
+.wishlistIconContainer :global(.vtex-button) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    /* width          : 100%; */
+    display        : flex;
+    justify-content: end;
+    align-items    : center;
+    &:hover{
+        background-color: transparent;
+    }
+    &:focus{
+        background-color: transparent;
+    }
+}
+
+/* .listPriceContainer{
+    background-color: black;
+} */
+
+.iconSize{
+    height: 12px;
+    width: 13px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("assets/svg/productSummary/fav.svg");
+}
+
+.wishlistIconContainer :global(.vtex-button__label) {
+    padding      : 6px 10px;
+    border       : solid #1D2734 0.76px;
+    border-radius: 4px;
+   
+
+}
+
+
+
+@media screen and (min-width:1026px) and (max-width:1920px) {
+
+    .wishlistIconContainer :global(.vtex-button__label) {
+        padding      : 8px 12px;
+        border       : solid #1D2734 0.76px;
+        border-radius: 4px;
+    }
+    .iconSize{
+        height: 15px;
+        width: 17px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+}

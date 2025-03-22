@@ -78,7 +78,7 @@
   },
   "semanticColors": {
     "background": {
-      "base": "#ffffff",
+      "base": "#5AA5CD",
       "base--inverted": "#03044e",
       "action-primary": "#0F3E99",
       "action-secondary": "#eef3f7",
@@ -324,7 +324,7 @@
     ],
     "styles": {
       "heading-1": {
-        "fontFamily": "Lexend,Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Lexend ,Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",

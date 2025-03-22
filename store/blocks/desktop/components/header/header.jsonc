@@ -24,7 +24,7 @@
             "search-bar",
             "flex-layout.col#desktop__navbar--contenedor-recomendados",
             "minicart.v2",
-            "login"
+            "login#global__login"
         ]
     },
     //Columna para centrar el logo

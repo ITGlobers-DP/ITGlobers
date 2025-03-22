@@ -1,3 +1,15 @@
+.flexCol--desktop__navbar--logo{
+    padding-right: 16px;
+}
+
+.flexRowContent--desktop__recomendados--elementos{
+    justify-content: center;
+    gap: 13px;
+}
+.flexRowContent--desktop__recomendados--elementos .stretchChildrenWidth{
+    width: auto !important;
+}
+
 .flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-menuContainerNav) {
     background-color: #FFFFFF;
     width           : 300px;

@@ -1,0 +1,71 @@
+{
+    "flex-layout.row#global__container-home--section-three": {
+        "title": "Contenedor Seccion Tres Home",
+        "children": [
+            "list-context.product-list#global__home--products"
+        ],
+        "props": {
+            "blockClass": [
+                "global__container-home--section-three"
+            ]
+        }
+    },
+    "list-context.product-list#global__home--products": {
+        "title": "Lista de Productos",
+        "blocks": [
+            "product-summary.shelf#global__products--summary"
+        ],
+        "children": [
+            "slider-layout#global__slider--products"
+        ],
+        "props": {
+            "blockClass": [
+                "global__home--products"
+            ]
+        }
+    },
+    "product-summary.shelf#global__products--summary": {
+        "title": "Global Resumen Producto ",
+        "children": [
+            // "stack-layout",
+            "add-to-list-btn",
+            "product-summary-image",
+            "product-summary-description",
+            // "product-summary-name", no tienen numbre en el figma 
+            "product-summary-space",
+            "product-summary-price",
+            "product-summary-buy-button#BotonPrueba"
+        ],
+        "props": {
+            "blockClass": [
+                "global__products--summary"
+            ]
+        }
+    },
+    //No funciona
+    "product-summary-buy-button#BotonPrueba": {
+        "title": "Boton Comprar Resumen Producto",
+        "props": {
+            "blockClass": [
+                "BotonPrueba"
+            ],
+            "buttonText": "Comprar ahora"
+        }
+    },
+    //Slider contenedor
+    "slider-layout#global__slider--products": {
+        "title": "Content Slider Home Products",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "centerMode": "to-the-left",
+            "centerModeSlidesGap": 10,
+            "showNavigationArrows": "desktopOnly"
+        }
+    }
+}

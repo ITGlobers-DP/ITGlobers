@@ -1,0 +1,32 @@
+.listPrice{
+    font-size: 12px; 
+    color: #1d273469;
+    line-height: 12.8px;
+}
+
+.sellingPrice{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1D2734;
+    line-height: 21.9px;
+
+    padding: 0;
+}
+.sellingPriceLabel{
+    display: none;
+}
+
+.installmentsPrice{
+    display: none;
+}
+
+.discountInsideContainer{
+    left: 0;
+    right: auto;
+    background-color: #1D2734;
+    font-size: 12px;
+    font-weight: 400;
+    &::after{
+        content: 'OFF';
+    }
+}

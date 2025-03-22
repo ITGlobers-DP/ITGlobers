@@ -21,3 +21,8 @@
 .opened :global(.vtex-store-drawer-0-x-closeIcon) {
     display: none;
 }
+
+
+.openIconContainer{
+    padding: 0 11px 0 0 !important;
+}
