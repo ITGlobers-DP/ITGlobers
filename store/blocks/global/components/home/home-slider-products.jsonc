@@ -21,15 +21,6 @@
           ]
         }
       },
-
-      //TEXTO DE LA SECCCION
-      "rich-text#global__content--title": {
-        "title": "Titulo contenedor",
-        "props": {
-          "text": "An amazing product.",
-          "blockClass": "home__section--title"
-        }
-      },
     "list-context.product-list#global__home--products": {
         "title": "Lista de Productos",
         "blocks": [
@@ -54,7 +45,7 @@
             // "product-summary-name", no tienen numbre en el figma 
             "product-summary-space",
             "product-summary-price",
-            "product-summary-buy-button#BotonPrueba"
+            "product-summary-buy-button"
         ],
         "props": {
             "blockClass": [
@@ -62,16 +53,7 @@
             ]
         }
     },
-    //No funciona
-    "product-summary-buy-button#BotonPrueba": {
-        "title": "Boton Comprar Resumen Producto",
-        "props": {
-            "blockClass": [
-                "BotonPrueba"
-            ],
-            "buttonText": "Comprar ahora"
-        }
-    },
+
     //Slider contenedor
     "slider-layout#global__slider--products": {
         "title": "Content Slider Home Products",
@@ -84,8 +66,10 @@
             "infinite": true,
             "fullWidth": false,
             "centerMode": "to-the-left",
-            "centerModeSlidesGap": 10,
-            "showNavigationArrows": "desktopOnly"
+            "centerModeSlidesGap": 5,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass":["global__slider--products"]
         }
+
     }
 }

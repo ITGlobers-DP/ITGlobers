@@ -1,20 +1,19 @@
-
-
 @media screen and (min-width:360px) and (max-width:1025px) {
 
     .searchBarContainer :global(.vtex-input-prefix__group) {
-        width        : auto;
-    }
-    
-    .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-       display: none;
-    }
-    .searchBarContainer :global(.vtex-input__suffix) {
-        background   : transparent;
-        padding: 0;
+        width: auto;
     }
 
-    .searchBarIcon{
+    .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+        display: none;
+    }
+
+    .searchBarContainer :global(.vtex-input__suffix) {
+        background: transparent;
+        padding   : 0;
+    }
+
+    .searchBarIcon {
         padding: 0;
     }
-}  
+}

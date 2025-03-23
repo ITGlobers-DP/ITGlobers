@@ -1,27 +1,26 @@
-.flexCol--desktop__navbar--logo{
+.flexCol--desktop__navbar--logo {
     padding-right: 16px;
 }
 
-.flexRowContent--desktop__recomendados--elementos{
+.flexRowContent--desktop__recomendados--elementos {
     justify-content: center;
-    gap: 13px;
+    gap            : 13px;
 }
-.flexRowContent--desktop__recomendados--elementos .stretchChildrenWidth{
+
+.flexRowContent--desktop__recomendados--elementos .stretchChildrenWidth {
     width: auto !important;
 }
 
+/*Mega Menu*/
 .flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-menuContainerNav) {
     background-color: #FFFFFF;
     width           : 300px;
 }
-.flexRowContent--desktop__header--navbar .flexColChild--desktop__navbar--menu{
+
+.flexRowContent--desktop__header--navbar .flexColChild--desktop__navbar--menu {
     height: 18px !important;
 }
-/*Titulos del Menu*/
-/* .flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-menuContainerNav .fw7){
-    background-color: #FFFFFF;
-    width: 300px;
-} */
+
 .flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-menuItem) {
     &:hover {
         background-color: #FFE6D3;

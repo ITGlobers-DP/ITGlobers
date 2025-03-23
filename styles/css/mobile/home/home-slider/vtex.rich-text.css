@@ -1,13 +1,12 @@
  .wrapper--home__infocard-slider--cardelement-text1 {
-    font-size  : 12px;
-    font-weight: 600;
-}
+     font-size  : 12px;
+     font-weight: 600;
+ }
 
-.wrapper--home__infocard-slider--cardelement-text2 {
-    font-size: 10px;
-}
+ .wrapper--home__infocard-slider--cardelement-text2 {
+     font-size: 10px;
+ }
 
-.paragraph--home__infocard-slider--cardelement-text2 {
-    margin: 0;
-}
-
+ .paragraph--home__infocard-slider--cardelement-text2 {
+     margin: 0;
+ }

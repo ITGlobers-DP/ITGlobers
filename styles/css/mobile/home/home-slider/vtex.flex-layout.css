@@ -8,8 +8,8 @@
 }
 
 .flexCol--global__frame--leading {
-    padding-left       : 10px;
-    width              : 100px;
+    padding-left: 10px;
+    width       : 100px;
 
 }
 
@@ -17,5 +17,4 @@
 .flexCol--global__infocards--cardelement {
     background-color: #ffffff;
     border-radius   : 12px;
-} 
-
+}

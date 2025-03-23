@@ -10,7 +10,8 @@
             "iconLabel": "Login",
             "labelClasses": [
                 "label-btn-login"
-            ]
+            ],
+            "blockClass":["global__login"]
         }
     }
 }
