@@ -1,0 +1,119 @@
+.flexRow--global__product-main {
+    margin-top : 25px;
+    padding    : 0 19px;
+    padding-top: 24px;
+    background-color: #ffffff;
+}
+
+.flexRowContent--global__product-main {
+    margin-bottom : 0;
+    padding-bottom: 0;
+}
+
+
+.flexRowContent--product__info--content-quantity {
+    display: flex;
+    gap    : 10px;
+}
+
+.flexRow--product__info--content-quantity {
+    margin-bottom: 8px;
+}
+
+
+.flexColChild--global__product-info :global(.vtex-button) {
+
+
+    background-color: #492A77;
+    color           : #fff;
+    border          : none;
+    border-radius   : 8px;
+    text-transform  : capitalize;
+    font-size       : 14px;
+    font-weight     : 400;
+    height          : 46px;
+
+}
+
+.flexColChild--global__product-info :global(.vtex-add-to-cart-button-0-x-buttonText--product__info--buy-btn) {
+
+    position       : relative;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    gap            : 10px;
+}
+
+.flexColChild--global__product-info :global(.vtex-add-to-cart-button-0-x-buttonText--product__info--buy-btn)::before {
+
+    content          : '';
+    width            : 17px;
+    height           : 18px;
+    background-image : url('assets/icons/AddToCart.svg');
+    background-size  : contain;
+    background-repeat: no-repeat;
+    position         : relative;
+
+}
+
+.flexColChild--global__product-info :global(.vtex-store-components-3-x-shareLabel) {
+    display   : block;
+    position  : relative;
+    visibility: hidden;
+}
+
+.flexColChild--global__product-info :global(.vtex-store-components-3-x-shareLabel)::after {
+    display    : inline-block;
+    content    : 'Share';
+    position   : absolute;
+    visibility : visible;
+    top        : 0%;
+    left       : 0%;
+    font-weight: 600;
+    font-size  : 16px;
+    color      : #1D2734;
+
+}
+
+.flexColChild--global__product-info :global(.vtex-store-components-3-x-shareContainer) {
+    margin: 8px 0 40px 0;
+}
+
+
+.flexRow--productSpecificationGroup {
+    padding: 0 16px;
+}
+
+
+/*especificaciones*/
+
+.container-id-global__row-specification{
+    padding: 0 19px;
+}
+
+.flexCol--spec-group {
+    border-radius: 12px;
+    overflow     : hidden;
+}
+
+.flexRowContent--spec-item {
+    padding: 15px;
+}
+
+.flexRowContent--spec-item:nth-child(odd) {
+    background-color: #E7E7E7;
+}
+
+.flexRowContent--spec-item:nth-child(even) {
+    background-color: transparent;
+}
+
+.flexCol--productSpecificationName {
+    font-weight: 600;
+    font-size  : 14px;
+}
+
+.flexCol--productSpecificationValue {
+    font-weight: 300;
+    font-size  : 14px;
+}

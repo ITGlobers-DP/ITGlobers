@@ -1,0 +1,23 @@
+{
+
+    "responsive-layout.mobile#mobile__pdp--slider": {
+        "props":{
+            "blockClass":[
+                "mobile__pdp--slider"
+            ]
+        },
+        "children": [
+            "product-images#mobile__product--images"
+        ]
+    },
+    "product-images#mobile__product--images": {
+        "props": {
+            "displayThumbnailsArrows": true,
+            "thumbnailsOrientation": "horizontal",
+            "blockClass": [
+                "mobile__product--images"
+            ]
+        }
+    }
+    
+}
