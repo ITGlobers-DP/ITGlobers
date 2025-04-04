@@ -1,3 +1,7 @@
+.wrapper--desktop__container-header{
+    height:168px !important
+}
+
 .container--desktop__container-header {
     background-color: #FFFFFF;
     padding         : 57px 72px 0px 72px;

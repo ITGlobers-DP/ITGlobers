@@ -1,0 +1,60 @@
+{
+    "flex-layout.row#global__row--search-layout": {
+        "title": "Fila para escritorio con filtros y productos",
+        "children": [
+            "filter-navigator.v3#global__search--filter",
+            "flex-layout.col#desktop__content--search-layout"
+        ],
+        "props": {
+            "blockClass": [
+                "global__row--search-layout"
+            ]
+        }
+    },
+    "search-content#global__search--layout": {
+        "title": "contenedor global busqueda",
+        "blocks": [
+            "gallery",
+            "not-found"
+        ],
+        "props": {
+            "blockClass": [
+                "global__search--layout"
+            ]
+        }
+    },
+    "gallery": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "newLayout",
+                    "component": "Cuadricula",
+                    "itemsPerRow": {
+                        "desktop": 3,
+                        "tablet": 2,
+                        "phone": 1
+                    }
+                }
+            ],
+            "Cuadricula": "product-summary.shelf#global__gallery--product"
+        }
+    },
+    "order-by.v2#global__search--order": {
+        "title": "orden para resultados",
+        "props": {
+            "blockClass": "global__search--order"
+        }
+    },
+    "filter-navigator.v3#global__search--filter": {
+        "title": "filtro para resultados",
+        "props": {
+            "blockClass": "global__search--filter"
+        }
+    },
+    "search-title.v2#global__search--title": {
+        "title": "titulo resultados",
+        "props": {
+            "blockClass": "global__search--title"
+        }
+    }
+}

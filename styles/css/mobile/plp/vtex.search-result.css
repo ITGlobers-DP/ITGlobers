@@ -1,0 +1,108 @@
+.galleryTitle--layout{
+    color: #1D2734;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 16px 0;
+}
+/*Ordenar*/
+
+.orderByText--global__search--order {
+    display: none;
+}
+
+.orderByButton--global__search--order{
+    border-radius: 40px;
+    background: #E7E7E7;
+    border: solid 1px #1D2734;
+    height:40px ;
+    width: auto !important;
+    
+}
+
+
+/*Filtros*/
+
+.filtersWrapperMobile--global__search--filter .filterPopupButton {
+    border-radius: 40px;
+    background: #E7E7E7;
+    height:40px ;
+    
+
+}
+
+.filterPopupTitle--global__search--order,
+.filterPopupTitle--global__search--filter{
+
+    color: #1D2734;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.filter--global__search--filter{
+    padding: 0;
+    
+}
+.filterPopupTitle--global__search--filter::before{
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("assets/icons/filter-search-layout.svg");
+
+    margin:  0 8px 0 10px;
+    
+
+}
+.filterPopupTitle--global__search--order::before{
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("assets/icons/ordenar-search-layout.svg");
+
+    margin:  0 8px 0 10px;
+
+}
+
+.filterTemplateOverflow--global__search--filter{
+    padding: 10px;
+
+}
+
+
+
+.filter__container--priceRange :global(.vtex-slider__base-internal),
+.filter__container--priceRange :global(.vtex-slider__selector)
+ {
+    background-color: #1D2734;
+}
+
+
+.filter__container--priceRange :global(.vtex-slider__values-container){
+    justify-content: center;
+}
+
+.filter__container--priceRange :global(.vtex-slider__left-value),
+.filter__container--priceRange :global(.vtex-slider__right-value)
+ {
+    color: #1D2734;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*GALERIA*/
+
+
+ .galleryItem--newLayout :global(.vtex-product-summary-2-x-containerNormal--global__gallery--product){
+    height: auto;
+} 
+
+
+
+

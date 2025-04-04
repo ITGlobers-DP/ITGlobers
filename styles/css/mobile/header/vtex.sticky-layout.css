@@ -1,5 +1,9 @@
+.wrapper--mobile__header{
+    height:128px !important
+}
+
 .container--mobile__header {
     background-color: #FFFFFF;
-    padding         : 68px 16px 0 16px;
+    padding         : 13px 16px 0 16px;
     box-shadow      : 0px 1px 15px #0000004a;
 }
