@@ -19,11 +19,11 @@
             "blockClass": "desktop__header--navbar"
         },
         "children": [
-            "flex-layout.col#desktop__navbar--menu", //LLamada al menu ha,burgesa que es global
+            "flex-layout.col#desktop__navbar--menu",
             "flex-layout.col#desktop__navbar--logo",
             "search-bar",
             "flex-layout.col#desktop__navbar--contenedor-recomendados",
-            "minicart.v2",
+            "minicart.v2#global__minicart",
             "login#global__login"
         ]
     },
@@ -87,7 +87,8 @@
         "props": {
             "href": "#",
             "label": "Tendencias de ITGlobers",
-            "blockClass": ["desktop__elemento",
+            "blockClass": [
+                "desktop__elemento",
                 "desktop__elemento--tendencias"
             ]
         }
@@ -98,7 +99,8 @@
         "props": {
             "href": "#",
             "label": "Colección del mes",
-            "blockClass": ["desktop__elemento",
+            "blockClass": [
+                "desktop__elemento",
                 "desktop__elemento--coleccion"
             ]
         }
@@ -109,7 +111,8 @@
         "props": {
             "href": "#",
             "label": "Ofertas enero",
-            "blockClass": ["desktop__elemento",
+            "blockClass": [
+                "desktop__elemento",
                 "desktop__elemento--ofertas"
             ]
         }
@@ -120,7 +123,8 @@
         "props": {
             "href": "#",
             "label": "Cyber Monday",
-            "blockClass": ["desktop__elemento",
+            "blockClass": [
+                "desktop__elemento",
                 "desktop__elemento--cyber"
             ]
         }
@@ -131,7 +135,8 @@
         "props": {
             "href": "#",
             "label": "Never say never",
-            "blockClass": ["desktop__elemento",
+            "blockClass": [
+                "desktop__elemento",
                 "desktop__elemento--never"
             ]
         }

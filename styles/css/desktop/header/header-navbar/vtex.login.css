@@ -1,0 +1,11 @@
+@media screen and (min-width:1026px) and (max-width:1920px) {
+
+    /*LOGIN EMAIL*/
+
+    .contentForm {
+        /* width: 100%; */
+        width  : 423px;
+        padding: 0 28px;
+    }
+
+}

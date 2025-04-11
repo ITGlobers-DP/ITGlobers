@@ -1,0 +1,50 @@
+.cartIcon {
+    height: 20px;
+    width : 20px;
+}
+
+.minicartTitle--global__minicart-content{
+    position: relative;
+    visibility: hidden;
+    margin: 0;
+    margin-bottom: -15px;
+}
+.minicartTitle--global__minicart-content::before{
+    visibility: visible;
+    position: absolute;
+    content: 'Resumen de tu compra';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productName){
+    font-size: 11.34px;
+    font-weight: 300;
+}
+.minicartProductListContainer :global(.vtex-product-list-0-x-productPriceCurrency--global__product-list-price ){
+    font-size: 11.34px;
+    font-weight: 300;
+    color: #1d27345f;
+
+}
+.minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRowContent--global__row-product-list-price){
+    margin-top: 8px;
+
+}
+.minicartProductListContainer :global(.vtex-product-list-0-x-price--global__product-list-price){
+    font-size: 15.12px;
+    font-weight: 600;
+    color: #1d2734;
+
+}
+.minicartProductListContainer :global(.vtex-flex-layout-0-x-flexRowContent--global__row-product-list-quantity-selector){
+margin-top: 8px;
+
+}
+.minicartProductListContainer :global(.vtex-product-list-0-x-quantitySelectorButton--global__product-list-quantity-selector){
+background-color: #1d2734;
+color: #ffffff;
+
+}

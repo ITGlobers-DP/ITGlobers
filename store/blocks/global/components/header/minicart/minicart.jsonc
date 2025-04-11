@@ -1,0 +1,158 @@
+{
+    "product-list#global__minicart": {
+        "blocks": [
+            "product-list-content-mobile#global__product-list-content"
+        ],
+        "props": {
+            "blockClass": [
+                "global__minicart"
+            ]
+        }
+    },
+    "product-list-content-mobile#global__product-list-content": {
+        "children": [
+            "flex-layout.row#global__product-list-row"
+        ],
+        "props": {
+            "blockClass": [
+                "global__product-list-content"
+            ]
+        }
+    },
+    "flex-layout.row#global__product-list-row": {
+        "children": [
+            "flex-layout.col#global__product-list-row-image",
+            "flex-layout.col#global__product-list-main-container"
+        ],
+        "props": {
+            "fullWidth": true,
+            "paddingBottom": "6",
+            "paddingTop": "5",
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": "true",
+            "blockClass": [
+                "global__product-list-row"
+            ]
+        }
+    },
+    "flex-layout.col#global__product-list-row-image": {
+        "children": [
+            "product-list-image"
+        ],
+        "props": {
+            "marginRight": "5",
+            "blockClass": [
+                "global__product-list-row-image"
+            ]
+        }
+    },
+    "flex-layout.col#global__product-list-main-container": {
+        "children": [
+            "flex-layout.row#global__row-product-list-top",
+            "flex-layout.row#global__row-product-list-unit-price",
+            "flex-layout.row#global__row-product-list-price",
+            "flex-layout.row#global__row-product-list-quantity-selector",
+            "flex-layout.row#global__row-product-list-message"
+        ],
+        "props": {
+            "width": "grow",
+            "blockClass": [
+                "global__product-list-main-container"
+            ]
+        }
+    },
+    "flex-layout.row#global__row-product-list-top": {
+        "children": [
+            "vtex.product-list:product-name",
+            "flex-layout.col#global__row-product-list-remove-button"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "preserveLayoutOnMobile": "true",
+            "blockClass": [
+                "global__row-product-list-top"
+            ]
+        }
+    },
+    "flex-layout.row#global__row-product-list-quantity-selector": {
+        "children": [
+            "quantity-selector#global__product-list-quantity-selector"
+        ],
+        "props": {
+            "marginTop": "5",
+            "preventHorizontalStretch": "true",
+            "blockClass": [
+                "global__row-product-list-quantity-selector"
+            ]
+        }
+    },
+    "flex-layout.row#global__row-product-list-unit-price": {
+        "children": [
+            "unit-price"
+        ],
+        "props": {
+            "marginTop": "3",
+            "blockClass": [
+                "global__row-product-list-unit-price"
+            ]
+        }
+    },
+    "flex-layout.row#global__row-product-list-price": {
+        "children": [
+            "price#global__product-list-price"
+        ],
+        "props": {
+            "marginTop": "5",
+            "preventHorizontalStretch": "true",
+            "blockClass": [
+                "global__row-product-list-price"
+            ]
+        }
+    },
+    "price#global__product-list-price": {
+        "props": {
+            "textAlign": "left",
+            "blockClass": [
+                "global__product-list-price"
+            ]
+        }
+    },
+    "flex-layout.col#global__row-product-list-remove-button": {
+        "children": [
+            "remove-button"
+        ],
+        "props": {
+            "marginLeft": "3",
+            "blockClass": [
+                "global__row-product-list-remove-button"
+            ]
+        }
+    },
+    "flex-layout.row#global__row-product-list-message": {
+        "children": [
+            "message#global__product-list-message"
+        ],
+        "props": {
+            "marginTop": "3",
+            "blockClass": [
+                "global__row-product-list-message"
+            ]
+        }
+    },
+    "message#global__product-list-message": {
+        "props": {
+            "layout": "rows",
+            "blockClass": [
+                "global__product-list-message"
+            ]
+        }
+    },
+    "quantity-selector#global__product-list-quantity-selector": {
+        "props": {
+            "mode": "stepper",
+            "blockClass": [
+                "global__product-list-quantity-selector"
+            ]
+        }
+    }
+}

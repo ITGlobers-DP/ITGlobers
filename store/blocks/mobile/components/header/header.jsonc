@@ -21,7 +21,7 @@
             "flex-layout.col#logo-mobile",
             "flex-layout.col#global__navbar--spacer",
             "search-bar",
-            "minicart.v2",
+            "minicart.v2#global__minicart",
             "login#global__login"
             
         ]

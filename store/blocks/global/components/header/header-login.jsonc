@@ -1,17 +1,46 @@
 {
     "login#global__login": {
+
         "props": {
-            "optionsTitle":"LOG-IN",
+            "optionsTitle": "LOG-IN",
             "emailAndPasswordTitle": "LOG-IN",
-            "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
-            "passwordPlaceholder": "password",
+            "emailPlaceholder": "Enter your e-mail",
+            "passwordPlaceholder": "Enter your password",
             "showPasswordVerificationIntoTooltip": true,
+            "accessCodeTitle": "RECUPERAR CLAVE",
+            "accessCodePlaceholder": "Enter your access code",
+            "providerPasswordButtonLabel": "Continue with an e-mail and password", /*Texto en el boton de la opcion con correo y contrasena*/
+            "accountOptionsButtonBehavior": "popover", /*Menu popUp para el account*/
             "iconLabel": "Login",
+            "hideIconLabel": false,
             "labelClasses": [
                 "label-btn-login"
             ],
-            "blockClass":["global__login"]
+            "accountOptionLinks": [ /*Menu opciones cuenta*/
+                {
+                    "label": "Profile",
+                    "path": "/account#/profile"
+                },
+                {
+                    "label": "Addresses",
+                    "path": "/account#/addresses"
+                },
+                {
+                    "label": "Orders",
+                    "path": "/account#/orders"
+                },
+                {
+                    "label": "Credit cards",
+                    "path": "/account#/cards"
+                },
+                {
+                    "label": "Authentication",
+                    "path": "/account#/authentication"
+                }
+            ],
+            "blockClass": [
+                "global__login"
+            ]
         }
     }
 }

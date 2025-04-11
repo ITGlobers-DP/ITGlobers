@@ -38,7 +38,7 @@
             ]
         },
         "children": [
-            "product-name#product__info--name",
+            "vtex.store-components:product-name#product__info--name",
             "product-price#product__info--price",
             "sku-selector#product__info--sku",
             "flex-layout.row#product__info--content-quantity",
@@ -48,7 +48,7 @@
         ]
     },
     //Elementos del producto
-    "product-name#product__info--name": {
+    "vtex.store-components:product-name#product__info--name": {
         "props": {
             "blockClass": [
                 "product__info--name"
