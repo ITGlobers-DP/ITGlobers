@@ -1,5 +1,5 @@
 {
-    "product-list#global__minicart": {
+    "product-list#global__minicartv1": {
         "blocks": [
             "product-list-content-mobile#global__product-list-content"
         ],
