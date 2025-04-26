@@ -64,9 +64,9 @@
                 "phone": 2
             },
             "infinite": true,
-            "fullWidth": false,
-            "centerMode": "to-the-left",
-            "centerModeSlidesGap": 5,
+            "fullWidth": true,
+            "centerMode": "disabled",
+            "centerModeSlidesGap": 10,
             "showNavigationArrows": "desktopOnly",
             "blockClass":["global__slider--products"]
         }

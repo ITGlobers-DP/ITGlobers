@@ -44,13 +44,16 @@
 
 .flexRow--global__row--search-layout .stretchChildrenWidth:last-child {
     flex: 1;
-    margin-bottom: 21px;
-
 }
 
 
 @media screen and (min-width:1026px) and (max-width:1920px) {
     .flexRowContent--global__gallery--product-summary {
         gap: 10px;
+    }
+
+    .flexRowContent--global__row--search-layout :global(.vtex-flex-layout-0-x-flexCol--desktop__content--search-layout) {
+
+        margin-left: 74px;
     }
 }

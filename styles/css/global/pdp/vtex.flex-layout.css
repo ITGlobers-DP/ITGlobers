@@ -99,11 +99,11 @@
     padding: 15px;
 }
 
-.flexRowContent--spec-item:nth-child(odd) {
+.flexRow--spec-item:nth-child(odd) {
     background-color: #E7E7E7;
 }
 
-.flexRowContent--spec-item:nth-child(even) {
+.flexRow--spec-item:nth-child(even) {
     background-color: transparent;
 }
 

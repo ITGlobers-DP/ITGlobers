@@ -27,6 +27,10 @@
     font-weight  : 400;
 }
 
+.filterItem--global__search--filter{
+   /* margin: 10px 0; Probando*/
+   padding: 14px 0;
+}
 .filterItem--global__search--filter :global(.vtex-checkbox__line-container) {
     align-items: center;
     gap: 15px;
@@ -75,11 +79,15 @@
 
 .gallery--newLayout {
     align-content: flex-start;
+    padding: 0;
 }
 
 .galleryItem--newLayout {
     height       : fit-content;
     padding      : 0;
-    margin-bottom: 24.7px;
 
+}
+
+.filter__container--selectedFilters{
+    display:none;
 }

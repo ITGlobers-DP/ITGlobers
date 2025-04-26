@@ -1,67 +1,80 @@
-
-
 .flexRowContent--global__content-breadcrumb {
-   margin-top: 16px;
+    margin-top: 16px;
 }
-.flexRow--global__content-breadcrumb :global(.vtex-store-components-3-x-container){
+
+.flexRow--global__content-breadcrumb :global(.vtex-store-components-3-x-container) {
     padding: 0;
 }
-.flexRow--global__content-breadcrumb :global(.vtex-breadcrumb-1-x-container){
+
+.flexRow--global__content-breadcrumb :global(.vtex-breadcrumb-1-x-container) {
     padding: 0;
 }
 
 
 /*Contenedor filtros y galeria*/
 
-.flexRow--global__row--search-layout{
+.flexRow--global__row--search-layout {
     margin-top: 40px;
 }
 
 /*Filtros*/
 
-.flexRow--mobile__search--filters{
+.flexRow--mobile__search--filters {
     margin-bottom: 16px;
 }
 
-.flexRowContent--mobile__search--filters{
+.flexRowContent--mobile__search--filters {
     display: flex;
-    gap: 3px;
+    gap    : 3px;
 }
-.flexRowContent--mobile__search--filters .stretchChildrenWidth{
+
+.flexRowContent--mobile__search--filters .stretchChildrenWidth {
     width: auto !important;
 
-    
+
 }
 
 
 
 /*Galeria*/
 
-.flexRowContent--global__gallery--product-summary :global(.vtex-product-summary-2-x-imageNormal){
+.flexRowContent--global__gallery--product-summary :global(.vtex-product-summary-2-x-imageNormal) {
     height: 106.3px;
-    width: auto;
+    width : auto;
 }
 
-.flexCol--global__gallery-info :global(.vtex-product-summary-2-x-description){
-    display: -webkit-box;
+.flexCol--global__gallery-info :global(.vtex-product-summary-2-x-description) {
+    display           : -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
-    overflow: hidden;
+    overflow          : hidden;
 }
-.flexCol--global__gallery-info :global(.vtex-product-summary-2-x-listPriceLabel){
+
+.flexCol--global__gallery-info :global(.vtex-product-summary-2-x-listPriceLabel) {
     display: none;
 }
-.flexCol--global__gallery-info :global(.vtex-product-summary-2-x-listPrice){
-    font-size: 12px;
+
+.flexCol--global__gallery-info :global(.vtex-product-summary-2-x-listPrice) {
+    font-size  : 12px;
     font-weight: 400;
-    color: #1d273463
+    color      : #1d273463
 }
-.flexCol--global__gallery-info :global(.vtex-product-summary-2-x-productPriceClass){
-width: 100%;
-text-align: start;
+
+.flexCol--global__gallery-info :global(.vtex-product-summary-2-x-productPriceClass) {
+    width     : 100%;
+    text-align: start;
 }
-.flexCol--global__gallery-info :global(.vtex-product-summary-2-x-sellingPrice){
-    font-size: 20px;
+
+.flexCol--global__gallery-info :global(.vtex-product-summary-2-x-sellingPrice) {
+    font-size  : 20px;
     font-weight: 600;
-    color: #1D2734
+    color      : #1D2734
+}
+
+.flexRow--global__gallery--product-summary :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRowContent--global__row--search-layout{
+    margin-bottom: 21px;
 }

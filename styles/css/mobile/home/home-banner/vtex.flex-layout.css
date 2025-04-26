@@ -6,13 +6,12 @@
 
 .flexRowContent--global__home-section-one {
     width     : 100vw;
-    margin-top: 67px;
+
 }
 
 
 @media screen and (min-width:1026px) and (max-width:1920px) {
     .flexRowContent--global__home-section-one {
         width     : 100vw;
-        margin-top: 57px;
     }
 }

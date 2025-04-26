@@ -11,7 +11,13 @@
     font-size  : 12px;
     line-height: 12.8px;
     color      : #1d273492;
-    text-align : start
+    text-align : start;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-top: 12px;
+    margin-bottom: 8px;
 }
 
 .buyButton :global(.vtex-button) {
@@ -62,7 +68,19 @@
 .priceContainer {
     padding: 0;
     height : 38px;
+    align-items: start;
+    text-align: start;
 }
+
+.listPriceLabel{
+    display: none;
+}
+
+.listPrice{
+    padding: 0;
+}
+
+
 
 @media screen and (min-width:1026px) and (max-width:1920px) {
 

@@ -71,7 +71,7 @@
 }
 
 .filterTemplateOverflow--global__search--filter{
-    padding: 10px;
+    padding: 0  10px;
 
 }
 
@@ -98,9 +98,11 @@
 
 /*GALERIA*/
 
-
  .galleryItem--newLayout :global(.vtex-product-summary-2-x-containerNormal--global__gallery--product){
     height: auto;
+} 
+ .galleryItem--newLayout :global(.vtex-product-summary-2-x-element--global__gallery--product){
+    padding: 0;
 } 
 
 
