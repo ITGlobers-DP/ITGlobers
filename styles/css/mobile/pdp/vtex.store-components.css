@@ -31,15 +31,14 @@
 }
 
 
-.price_className--product__info--price {
-    margin-bottom: 40px;
-}
+
 
 .currencyContainer--product__info--price {
     font-size  : 24px;
     font-weight: 600;
     color      : #1D2734;
 }
+
 
 .skuSelectorSubcontainer--talla,
 .skuSelectorSubcontainer--color {
@@ -69,4 +68,33 @@
 
 .skuSelectorItem--selected .valueWrapper--product__info--sku {
     color: #000000;
+}
+
+
+.price_listPriceLabel--product__info--price{
+    display: none;
+}
+.price_listPrice--product__info--price{
+    padding: 0;
+}
+.price_listPrice--product__info--price .currencyContainer--product__info--price{
+    color: #1d273465;
+    font-size: 14px;
+    font-weight: 400;
+}
+.price_sellingPrice--product__info--price::before{
+    content: 'Now ';
+    font-size: 24px;
+    font-weight: 600;
+    color: #1D2734;
+}
+
+
+.price_className--product__info--price {
+    margin-bottom: 24px !important;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: end;
+    gap: 16px;
 }

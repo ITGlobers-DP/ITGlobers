@@ -9,14 +9,22 @@
     padding-bottom: 0;
 }
 
+.flexRow--product__info--content-quantity {
+    margin-bottom: 8px;
+}
 
 .flexRowContent--product__info--content-quantity {
     display: flex;
-    gap    : 10px;
+    gap    : 16px;
 }
 
-.flexRow--product__info--content-quantity {
-    margin-bottom: 8px;
+.flexRowContent--product__info--content-quantity :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    width: auto !important;
+    padding: 0;
+}
+.flexRowContent--product__info--content-quantity :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+    width: auto !important;
+
 }
 
 
@@ -81,6 +89,7 @@
 
 .flexRow--productSpecificationGroup {
     padding: 0 16px;
+    margin-bottom: 40px;
 }
 
 

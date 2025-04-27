@@ -63,6 +63,12 @@
     position: static;
 }
 
+/*Configuracion ancho nombre del producto*/
 .flexRowContent--global__row-product-list-top .stretchChildrenWidth:first-child{
     align-items: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 10px;
 }

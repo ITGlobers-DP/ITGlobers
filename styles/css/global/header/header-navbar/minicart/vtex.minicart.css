@@ -51,7 +51,7 @@
     background-color: #1d2734;
     color           : #ffffff;
     height          : 45px;
-    /* overflow: hidden; */
+
 }
 .minicartProductListContainer :global(.vtex-product-list-0-x-inputContainer) {
     width: 59px;
