@@ -9,3 +9,9 @@
 .openIconContainer :global(.vtex-button):hover {
     background-color: transparent;
 }
+
+.overlay--visible {
+    background     : #1d27343a;
+    backdrop-filter: blur(6px);
+    opacity        : 1 !important;
+}

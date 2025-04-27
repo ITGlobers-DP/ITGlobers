@@ -55,14 +55,6 @@
             "product-list#global__minicartv1"
         ]
     },
-    // "product-list#global__minicart": {
-    //     "props": {
-    //         "blockClass": "global__minicart"
-    //     },
-    //     "blocks": [
-    //         "product-list-content-mobile"
-    //     ]
-    // },
     "minicart-summary#global__minicart-summary": {
         "props": {
             "blockClass": "global__minicart-summary"

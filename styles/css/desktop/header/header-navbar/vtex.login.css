@@ -12,6 +12,10 @@
         margin-left: 16px;
     }
     
+
+    .portalWrapper--global__login :global(.justify-start):first-child{
+        left: 90vw !important;
+    }
     
 }
 .container :global(.vtex-button__label){

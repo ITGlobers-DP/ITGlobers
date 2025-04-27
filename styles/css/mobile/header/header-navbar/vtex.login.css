@@ -23,11 +23,13 @@
 
 .container :global(.vtex-button__label) {
     height          : 40px;
-    width           : 80px;
     border-radius   : 40px;
     background-color: #1D2734;
     text-align      : center;
     margin-left     : 16px;
+    color           : #ffffff;
+    min-width       : 80px;
+    padding         : 0 5px;
 }
 
 .label {
@@ -44,11 +46,12 @@
 }
 
 .box {
-    width        : 423px;
-    border-radius: 0 0 20px 20px;
-    top          : 50px;
-    right        : -96px !important;
-
+    width           : 423px;
+    border-radius   : 0 0 20px 20px;
+    top             : 50px;
+    /* left         : -296px !important;
+    transform-origin: top right; */
+    font-weight     : 400;
 }
 
 /*Diseño del Login al abrirlo*/
@@ -475,24 +478,12 @@
 
 
 .profile {
-    visibility: hidden;
-    position  : relative;
-}
-
-.profile::before {
-    display       : block;
-    visibility    : visible;
-    content       : 'Login';
-    position      : absolute;
-    color         : #FFFFFF;
-    transform     : translate(-50%);
-    left          : 50%;
-    font          : 14px;
-    font-weight   : 300;
     text-transform: capitalize;
+    font-size     : 14px;
+    font-weight   : 300;
+    display: block;
+    padding: 0 8px;
 }
-
-
 
 /*MENU DE OPCCIONES PARA LA CUIENT*/
 
@@ -503,84 +494,92 @@
 }
 
 .content--accountOptions .accountOptionsSectionTitle {
-    color: #1D2734;
-    font-size: 20px;
-    font-weight: 300;
+    color         : #1D2734;
+    font-size     : 20px;
+    font-weight   : 300;
     text-transform: uppercase;
 }
 
 .content--accountOptions :global(.no-underline),
 .content--accountOptions .logoutButton {
-    color: #1D2734;
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: capitalize;
-    border: #1D2734 1px solid;
-    width: 100%;
-    display: flex;
-    align-items: center;
+    color          : #1D2734;
+    font-size      : 14px;
+    font-weight    : 400;
+    text-transform : capitalize;
+    border         : #1D2734 1px solid;
+    width          : 100%;
+    display        : flex;
+    align-items    : center;
     justify-content: center;
-    height: 48px;
-    
+    height         : 48px;
+
     border-radius: 40px;
-    margin-top: 8px;
-    
+    margin-top   : 8px;
+
 }
+
 .content--accountOptions :global(.no-underline):hover {
     background-color: #1D2734;
-    color: #FFFFFF;
+    color           : #FFFFFF;
 
-    
+
 }
-.content--accountOptions :global(.mv2 ) {
+
+.content--accountOptions :global(.mv2) {
     display: none;
 }
-.content--accountOptions :global(.mv4 ) {
+
+.content--accountOptions :global(.mv4) {
     margin: 0;
 }
+
 .content--accountOptions .logoutButton {
-    border: none;
-    color: #E31616;
+    border    : none;
+    color     : #E31616;
     visibility: hidden;
-    position: relative;
+    position  : relative;
 
 }
+
 .content--accountOptions .logoutButton::before {
     visibility: visible;
-    content: 'Log out';
-    border: none;
-    color: #E31616;
-    position: absolute;
+    content   : 'Log out';
+    border    : none;
+    color     : #E31616;
+    position  : absolute;
 
     width: 100%;
 
-    height: 48px;
+    height       : 48px;
     border-radius: 40px;
 
-    top: 0;
+    top      : 0;
     transform: translate(-50%);
-    left: 50%;
+    left     : 50%;
 
-    display: flex;
-    align-items: center;justify-content: center;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
 }
+
 .content--accountOptions .logoutButton:hover::before {
-    border: none;
-    color: #ffffff;
-    position: absolute;
-    display: block;
+    border          : none;
+    color           : #ffffff;
+    position        : absolute;
+    display         : block;
     background-color: #E31616;
 
-    top: 0;
+    top      : 0;
     transform: translate(-50%);
-    left: 50%;
+    left     : 50%;
 
-    display: flex;
-    align-items: center;justify-content: center;
-    
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+
 }
 
 .content--accountOptions .logoutButton:hover {
     background-color: #E31616;
-    color: #FFFFFF;
+    color           : #FFFFFF;
 }

@@ -62,3 +62,7 @@
 
     position: static;
 }
+
+.flexRowContent--global__row-product-list-top .stretchChildrenWidth:first-child{
+    align-items: center;
+}
