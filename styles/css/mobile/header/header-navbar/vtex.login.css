@@ -1,18 +1,35 @@
+@media screen and (min-width:360px) and (max-width:1025px) {
+    .container :global(.vtex-button__label) {
+        margin-left: 0;
+    }
+
+}
+
 .container :global(.vtex-button__label) {
     padding: 0;
 }
 
-.container :global(.vtex-button):hover {
-    background-color: transparent;
+.container :global(.vtex-button) {
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    &:focus {
+        background-color: transparent;
+    }
+
 }
 
 .container :global(.vtex-button__label) {
     height          : 40px;
-    width           : 80px;
     border-radius   : 40px;
-    background-color: black;
+    background-color: #1D2734;
     text-align      : center;
     margin-left     : 16px;
+    color           : #ffffff;
+    min-width       : 80px;
+    padding         : 0 5px;
 }
 
 .label {
@@ -21,4 +38,548 @@
     color         : #ffffff;
     font-size     : 14px;
     display       : block;
+    font-weight   : 300;
+}
+
+.arrowUp {
+    display: none;
+}
+
+.box {
+    width           : 423px;
+    border-radius   : 0 0 20px 20px;
+    top             : 50px;
+    /* left         : -296px !important;
+    transform-origin: top right; */
+    font-weight     : 400;
+}
+
+/*Diseño del Login al abrirlo*/
+
+.content {
+    background-color: #F5F4F6;
+    border-radius   : 0 0 8px 8px;
+}
+
+.contentContainer {
+    border-radius: 0 0 8px 8px;
+}
+
+.formTitle {
+    font-size    : 20px;
+    margin-bottom: 24px;
+    padding      : 0;
+    font-weight  : 300;
+}
+
+.optionsList {
+    display       : flex;
+    flex-direction: column;
+
+}
+
+.optionsList .optionsListItem:nth-child(1) {
+    order: 2;
+}
+
+.optionsList .optionsListItem:nth-child(2) {
+    order: 1;
+
+}
+
+.optionsList .optionsListItem:nth-child(3) {
+    order: 3;
+
+}
+
+.optionsList .optionsListItem:nth-child(3) :global(.vtex-button__label) {
+    padding: 0 22px;
+    color  : #5E636E;
+}
+
+.optionsList .optionsListItem:nth-child(4) {
+    order: 4;
+}
+
+/*Textops y distribucion elementos del facebook y google*/
+.oauthLabel {
+    font-size     : 14px;
+    font-weight   : 400;
+    text-transform: capitalize;
+    flex          : 2;
+}
+
+.oauthProvider {
+    font-weight: 400;
+}
+
+.customOAuthOptionBtn {
+    display: none;
+}
+
+.button :global(.vtex-button) {
+    background-color: transparent;
+    border          : 1px solid #1D2734;
+    border-radius   : 40px;
+    color           : #1D2734;
+    text-transform  : capitalize;
+    font-size       : 14px;
+}
+
+.googleOptionBtn :global(.vtex-button) {
+    background-color: #FFFFFF;
+    border          : solid 1px #aebace7c;
+    border-radius   : 40px;
+}
+
+.facebookOptionBtn :global(.vtex-button) {
+    background-color: #1877F2;
+    border          : solid 1px #aebace7c;
+    border-radius   : 40px;
+    color           : #ffffff;
+}
+
+
+
+/*LOGIN EMAIL*/
+
+
+
+.emailVerification {
+    position: relative;
+
+}
+
+.emailVerification .formTitle {
+    margin-bottom: 0;
+}
+
+.content--emailAndPassword .emailVerification .formTitle::after {
+    margin     : 8px 0 16px 0;
+    content    : "Continue with e-mail and password";
+    display    : block;
+    font-size  : 14px;
+    color      : #5E636E;
+    font-weight: 300;
+}
+
+.content--emailAndPassword .inputContainerPassword {
+    padding-top   : 16px;
+    padding-bottom: 16px;
+}
+
+.content--emailAndPassword .formFooter {
+    border    : none;
+    margin-top: 24px;
+    padding   : 0;
+}
+
+
+.inputContainer :global(.vtex-input-prefix__group) {
+    border-radius: 40px;
+    overflow     : hidden;
+    border       : #1D2734 solid 1px;
+
+}
+
+.inputContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    color      : #1D2734;
+    font-size  : 14px;
+    font-weight: 400;
+
+}
+
+.inputContainer :global(.vtex-input__suffix) {
+    display: none;
+
+}
+
+/*Olvide mi contrasena*/
+
+.formLinkContainer .forgotPasswordLink {
+    position       : relative;
+    visibility     : hidden;
+    font-size      : 14px;
+    color          : #E56A54;
+    font-weight    : 300;
+    text-decoration: underline;
+}
+
+.formLinkContainer .forgotPasswordLink::before {
+    position       : absolute;
+    width          : auto;
+    left           : -50%;
+    transform      : translateX(-60%);
+    visibility     : visible;
+    content        : "Forgot your password? ";
+    font-size      : 14px;
+    color          : #5E636E;
+    font-weight    : 300;
+    text-decoration: none;
+}
+
+.formLinkContainer .forgotPasswordLink::after {
+    position       : absolute;
+    width          : auto;
+    left           : 0px;
+    visibility     : visible;
+    content        : ' Reset password';
+    font-size      : 14px;
+    color          : #E56A54;
+    font-weight    : 300;
+    text-decoration: underline;
+}
+
+/*atras*/
+
+.backButton {
+    position: absolute;
+    top     : -5px;
+    left    : 0;
+}
+
+.backButton :global(.t-small) {
+    display: none;
+
+}
+
+.backButton :global(.vtex-button):hover {
+    background-color: transparent;
+
+}
+
+.backButton :global(.vtex-button__label) {
+    padding: 0 !important;
+
+}
+
+.arrowBackIcon {
+    width : 24px;
+    height: 24px;
+}
+
+
+/*Entrar*/
+
+.sendButton {
+    margin: auto;
+    width : 100%;
+
+
+
+}
+
+.sendButton :global(.vtex-button) {
+    background-color: #1D2734;
+    border          : none;
+    width           : 100%;
+    height          : 48px;
+    border-radius   : 40px;
+
+}
+
+/*Registrarse*/
+.formLinkContainer .dontHaveAccount {
+    margin     : auto;
+    height     : 48px;
+    display    : flex;
+    align-items: center;
+    color      : #1D2734;
+    font-size  : 14;
+    font-weight: 400;
+    position   : relative;
+    visibility : hidden;
+}
+
+.formLinkContainer .dontHaveAccount::after {
+    content   : "Create an account";
+    visibility: visible;
+    position  : absolute;
+    top       : 50%;
+    left      : 50%;
+    width     : 100%;
+    transform : translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/*Olvide mi contraseña*/
+
+.content--beginCreatePass .formTitle::after {
+    content      : 'Receive access code by email';
+    display      : block;
+    font-size    : 14px;
+    font-weight  : 300;
+    color        : #5E636E;
+    margin-top   : 8px;
+    margin-bottom: 16px;
+}
+
+
+.content--beginCreatePass .formFooter {
+    padding      : 0;
+    margin-top   : 16px;
+    margin-bottom: 24px;
+}
+
+/*ACCESS CODE*/
+
+.content--emailVerification {
+    padding-top   : 0;
+    padding-bottom: 24px;
+}
+
+.content--emailVerification .emailVerification .formTitle {
+    margin: 16px 0 0 0;
+}
+
+.content--emailVerification .emailVerification .formTitle::after {
+    margin     : 8px 0 16px 0;
+    content    : "Receive access code by email";
+    display    : block;
+    font-size  : 14px;
+    color      : #5E636E;
+    font-weight: 300;
+
+}
+
+
+
+/*ingresar codigo del correo*/
+
+.content--codeConfirmation .formTitle {
+    visibility   : hidden;
+    position     : relative;
+    margin-top   : 16px;
+    margin-bottom: 0px;
+}
+
+.content--codeConfirmation .formTitle::before {
+    visibility   : visible;
+    display      : block;
+    content      : "VERIFY YOUR E-MAIL";
+    position     : relative;
+    margin-bottom: 8px;
+}
+
+.content--codeConfirmation .formTitle::after {
+    visibility : visible;
+    display    : block;
+    content    : "Enter the access code we sent to";
+    font-size  : 14px;
+    font-weight: 300;
+    color      : #5E636E;
+    width      : 100%;
+    position   : absolute;
+    top        : 50%;
+    left       : 0%;
+    text-align : center;
+    transform  : translate(-50% -50%);
+}
+
+.content--codeConfirmation .backButton {
+    position: absolute;
+    top     : 27px;
+    left    : 40px;
+}
+
+.content--codeConfirmation :global(.vtex-styleguide-9-x-input)::placeholder {
+    font-family: "Lexend";
+    color      : #1D2734;
+    font-size  : 14px;
+    font-weight: 400;
+
+}
+
+.content--codeConfirmation .formFooter {
+    border       : none;
+    padding      : 0;
+    margin-bottom: 24px;
+
+}
+
+/*nueva contrasena*/
+
+.forgotPasswordForm .formTitle {
+    margin-top: 4px;
+    visibility: hidden;
+    position  : relative;
+    height    : 51px;
+}
+
+.forgotPasswordForm .formTitle::before {
+    visibility: visible;
+    display   : block;
+    content   : 'Reset your password';
+}
+
+.forgotPasswordForm .formTitle::after {
+    visibility : visible;
+    display    : block;
+    content    : 'Create a new password';
+    font-size  : 14px;
+    font-weight: 300;
+    color      : #5E636E;
+
+    width    : 100%;
+    top      : 50%;
+    position : absolute;
+    transform: translate(-50% -50%);
+
+}
+
+.forgotPasswordForm .formSubtitle {
+    display: none;
+}
+
+
+.forgotPasswordForm .inputContainerAccessCode {
+    display: none;
+    padding: 0;
+}
+
+.forgotPasswordForm .inputContainerPassword :global(.vtex-input__suffix) {
+    display: flex;
+
+}
+
+.forgotPasswordForm .inputContainerPassword :global(.pa2) {
+    padding-top: 8px;
+
+}
+
+.forgotPasswordForm .inputContainerPassword :global(.c-danger) {
+    color       : #0C2340;
+    padding-left: 16px;
+    font-size   : 12px;
+    font-weight : 300 !important;
+}
+
+.forgotPasswordForm .inputContainerPassword :global(.t-small) {
+    font-size  : 12px;
+    font-weight: 300;
+}
+
+.forgotPasswordForm .inputContainer {
+    padding-top   : 16px;
+    padding-bottom: 0;
+
+}
+
+.forgotPasswordForm .formFooter {
+    margin-top   : 4px;
+    margin-bottom: 12px;
+
+}
+
+.eyeSightIcon--global__login {
+    width: 25px;
+}
+
+
+.profile {
+    text-transform: capitalize;
+    font-size     : 14px;
+    font-weight   : 300;
+    display: block;
+    padding: 0 8px;
+}
+
+/*MENU DE OPCCIONES PARA LA CUIENT*/
+
+.content--accountOptions :global(.mv4) {
+    align-items   : center;
+    display       : flex;
+    flex-direction: column;
+}
+
+.content--accountOptions .accountOptionsSectionTitle {
+    color         : #1D2734;
+    font-size     : 20px;
+    font-weight   : 300;
+    text-transform: uppercase;
+}
+
+.content--accountOptions :global(.no-underline),
+.content--accountOptions .logoutButton {
+    color          : #1D2734;
+    font-size      : 14px;
+    font-weight    : 400;
+    text-transform : capitalize;
+    border         : #1D2734 1px solid;
+    width          : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    height         : 48px;
+
+    border-radius: 40px;
+    margin-top   : 8px;
+
+}
+
+.content--accountOptions :global(.no-underline):hover {
+    background-color: #1D2734;
+    color           : #FFFFFF;
+
+
+}
+
+.content--accountOptions :global(.mv2) {
+    display: none;
+}
+
+.content--accountOptions :global(.mv4) {
+    margin: 0;
+}
+
+.content--accountOptions .logoutButton {
+    border    : none;
+    color     : #E31616;
+    visibility: hidden;
+    position  : relative;
+
+}
+
+.content--accountOptions .logoutButton::before {
+    visibility: visible;
+    content   : 'Log out';
+    border    : none;
+    color     : #E31616;
+    position  : absolute;
+
+    width: 100%;
+
+    height       : 48px;
+    border-radius: 40px;
+
+    top      : 0;
+    transform: translate(-50%);
+    left     : 50%;
+
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.content--accountOptions .logoutButton:hover::before {
+    border          : none;
+    color           : #ffffff;
+    position        : absolute;
+    display         : block;
+    background-color: #E31616;
+
+    top      : 0;
+    transform: translate(-50%);
+    left     : 50%;
+
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+
+}
+
+.content--accountOptions .logoutButton:hover {
+    background-color: #E31616;
+    color           : #FFFFFF;
 }

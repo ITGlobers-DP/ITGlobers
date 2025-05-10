@@ -1,0 +1,12 @@
+{
+    "store.product#global__store--product": {
+        "title": 
+            "pagina global producto"
+        ,
+        "children": [
+            "flex-layout.row#global__product-main",
+            "product-specification-group#global__table-specification"
+        ]
+        
+    }
+}

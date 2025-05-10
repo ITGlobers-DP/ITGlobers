@@ -1,0 +1,34 @@
+.sliderLayoutContainer {
+
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.paginationDotsContainer {
+    position: relative;
+
+    height         : 50.89px;
+    justify-content: center;
+    display        : flex;
+    align-items    : center;
+}
+
+.paginationDot--isActive {
+    background-color: #1D2734;
+
+}
+
+.paginationDot {
+
+    height       : 2px !important;
+    border-radius: 0px;
+    width        : 25px !important;
+    margin       : 0 2px !important;
+    padding      : 0;
+    border-radius: 2.12px;
+}
+
+.sliderTrack--global__slider--products{
+    gap: 8px;
+}

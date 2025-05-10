@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#global__content-breadcrumb": {
+        "title": "contenedor breadcrumb",
+        "props": {
+            "marginTop": 4,
+            "blockClass": [
+                "global__content-breadcrumb"
+            ]
+        },
+        "children": [
+            "breadcrumb.search#global__breadcrumb"
+        ]
+    },
+    "breadcrumb.search#global__breadcrumb": {
+        "title": "breadcrumb",
+        "props": {
+            "showOnMobile": true
+            //   "blockClass": ["global__breadcrumb"]
+        }
+    }
+}

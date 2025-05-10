@@ -1,0 +1,172 @@
+.cartIcon {
+    height: 20px;
+    width : 20px;
+}
+
+.opened {
+    width: 100vw !important;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+.minicartTitle--global__minicart-content {
+    position     : relative;
+    visibility   : hidden;
+    margin       : 0;
+    margin-bottom: -15px;
+}
+
+.minicartTitle--global__minicart-content::before {
+    visibility : visible;
+    position   : absolute;
+    content    : 'Resumen de tu compra';
+    font-size  : 14px;
+    font-weight: 600;
+}
+
+
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productName) {
+    font-size  : 11.34px;
+    font-weight: 300;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productPriceCurrency--global__product-list-price) {
+    font-size  : 11.34px;
+    font-weight: 300;
+    color      : #1d27345f;
+
+}
+
+
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-price--global__product-list-price) {
+    font-size  : 15.12px;
+    font-weight: 600;
+    color      : #1d2734;
+
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-quantitySelectorButton--global__product-list-quantity-selector) {
+    background-color: #1d2734;
+    color           : #ffffff;
+    height          : 45px;
+
+}
+.minicartProductListContainer :global(.vtex-product-list-0-x-inputContainer) {
+    width: 59px;
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-deleteIcon) {
+    height: 20px;
+
+}
+
+.minicartProductListContainer :global(.vtex-product-list-0-x-productImage) {
+    height    : 100%;
+    width     : 100%;
+    object-fit: contain;
+}
+
+.minicartSummary--global__minicart-summary {
+    margin       : 16px;
+    border       : solid 1px #E7E7E7;
+    border-radius: 4px;
+    padding      : 24px;
+    margin-bottom: 8px;
+}
+.minicartSummary {
+    margin       : 16px;
+    border       : solid 1px #E7E7E7;
+    border-radius: 4px;
+    padding      : 24px;
+    margin-bottom: 8px;
+}
+
+.minicartCheckoutButton{
+    margin: 0;
+}
+
+.minicartSummary--global__minicart-summary :global(.vtex-checkout-summary-0-x-summaryItemContainer--global__minicart-summary-totalizer) {
+    margin : 12px 0;
+    padding: 0;
+}
+
+.minicartSummary--global__minicart-summary :global(.vtex-checkout-summary-0-x-summaryItemContainer--global__minicart-summary-totalizer):first-child {
+    color      : #1d27345f;
+    font-size  : 14px;
+    font-weight: 300;
+
+}
+.minicartContentContainer--global__minicart-content :global(.vtex-checkout-summary-0-x-summaryItemContainer):first-child {
+    color      : #1d27345f;
+    font-size  : 14px;
+    font-weight: 300;
+}
+
+.minicartSummary--global__minicart-summary :global(.vtex-checkout-summary-0-x-summaryItemContainer--global__minicart-summary-totalizer):last-child {
+    color      : #E31616;
+    font-size  : 16px;
+    font-weight: 600;
+}
+.minicartContentContainer--global__minicart-content :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child { /*Correcto*/
+    color      : #E31616;
+    font-size  : 16px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.minicartSummary--global__minicart-summary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer--global__minicart-checkout-summary-compact) {
+    display: none;
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemContainer):nth-child(even){
+    display: none;
+
+}
+
+.minicartCheckoutButton--global__minicart-checkout {
+    margin       : 0;
+    margin-bottom: 16px;
+}
+
+.minicartCheckoutButton--global__minicart-checkout :global(.vtex-button) {
+    background-color: #1d2734;
+    border          : none;
+    border-radius   : 40px;
+    text-transform  : capitalize;
+    font-size       : 14px;
+    font-weight     : 400;
+}
+
+.minicartEmptyStateContainer--global__minicart-empty :global(.vtex-store-icons-0-x-cartIcon--global__minicart-empty-state) {
+    background-image: url("assets/img/Empty-Cart.png");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+
+.minicartEmptyStateContainer--global__minicart-empty{
+    justify-content: flex-start;
+}
+.minicartEmptyStateContainer--global__minicart-empty :global(.vtex-flex-layout-0-x-flexColChild--global__col-minicart-empty-state){
+    padding: 0;
+}
+.minicartEmptyStateContainer--global__minicart-empty :global(.vtex-rich-text-0-x-paragraph--global__minicart-default-empty-state){
+    margin: 0;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.minicartEmptyStateContainer--global__minicart-empty :global(.vtex-rich-text-0-x-paragraph--global__minicart-subtext--default-empty-state){
+    margin: 0;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+/*Icono de cerrar*/
+.closeIconContainer{
+    justify-content: flex-end;
+}

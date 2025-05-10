@@ -1,0 +1,64 @@
+{
+    "search-result-layout.desktop#desktop__searh-result": {
+        "children": [
+            "flex-layout.row#global__content-breadcrumb",
+            "flex-layout.row#desktop__contenedor-title-total-order",
+            "flex-layout.row#global__row--search-layout"
+        ],
+        "props": {
+            "blockClass": "desktop__searh-result",
+            "preventRouteChange": true,
+            "showFacetQuantity": true
+        }
+    },
+    "flex-layout.row#desktop__contenedor-title-total-order": {
+        "title": "Contenedor global de resultados",
+        "children": [
+            "flex-layout.col#desktop__column-title-total",
+            "order-by.v2#global__search--order"
+        ],
+        "props": {
+            "blockClass": "global__contenedor-resultado"
+        }
+    },
+    "flex-layout.col#desktop__column-title-total": {
+        "title": "Desktop columna title y total",
+        "children": [
+            "search-title.v2#global__search--title",
+            "total-products.v2#desktop__search--total"
+        ],
+        "props": {
+            "blockClass": [
+                "desktop__column-title-total"
+            ]
+        }
+    },
+    "total-products.v2#desktop__search--total": {
+        "title": "total productos encontrados",
+        "props": {
+            "blockClass": [
+                "desktop__search--total"
+            ]
+        }
+    },
+    "flex-layout.col#desktop__content--search-layout": {
+        "title": "Contenedor de escritorio para resultados producto",
+        "props": {
+            "blockClass":[
+                "desktop__content--search-layout"
+            ]
+        },
+        "children": [
+            "search-content#global__search--layout",
+            "search-fetch-more#desktop__search--more"
+        ]
+    },
+    "search-fetch-more#desktop__search--more": {
+        "title": "Boton mostrar mas para escritorio",
+        "props": {
+            "blockClass": [
+                "desktop__search--more"
+            ]
+        }
+    }
+}

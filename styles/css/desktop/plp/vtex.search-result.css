@@ -1,0 +1,93 @@
+.totalProducts--layout {
+
+    width     : auto !important;
+    text-align: start;
+    padding   : 0;
+}
+
+
+
+/*Filtros*/
+.filterMessage--global__search--filter {
+    display: none;
+}
+
+.filter__container--global__search--filter {
+    border: none;
+}
+
+.filterTitle--global__search--filter {
+    border-radius: 40px;
+    background   : #E7E7E7;
+    border       : solid 1px #1D2734;
+    height       : 40px;
+    padding      : 0 16px;
+    color        : #1D2734;
+    font-size    : 14px;
+    font-weight  : 400;
+}
+
+.filterItem--global__search--filter{
+   /* margin: 10px 0; Probando*/
+   padding: 14px 0;
+}
+.filterItem--global__search--filter :global(.vtex-checkbox__line-container) {
+    align-items: center;
+    gap: 15px;
+}
+
+.filterItem--global__search--filter :global(.vtex-checkbox__label) {
+    color      : #1D2734;
+    font-size  : 12px;
+    font-weight: 300;
+}
+
+.filterItem--global__search--filter :global(.vtex-checkbox__box) {
+    background-color: #1D2734;
+}
+
+
+.caretIcon--global__search--filter :local(use) {
+    transform: scale(1.5);
+}
+
+/*Mostrar mas*/
+
+.buttonShowMore--desktop__search--more :global(.vtex-button) {
+    border          : none;
+    background-color: transparent;
+}
+
+.buttonShowMore--desktop__search--more :global(.vtex-button__label) {
+    background-color: #1D2734;
+    border-radius   : 40px;
+    font-size       : 14px;
+    text-transform  : capitalize;
+    font-weight     : 400;
+}
+
+
+.buttonShowMore--desktop__search--more :global(.vtex-button__label)::after {
+    content         : "";
+    width           : 12px;
+    height          : 12px;
+    background-image: url("assets/icons/more--search-layout.svg");
+    background-size : contain;
+    margin-left     : 14px;
+
+}
+
+.gallery--newLayout {
+    align-content: flex-start;
+    padding: 0;
+}
+
+.galleryItem--newLayout {
+    height       : fit-content;
+    padding      : 0;
+
+}
+
+.filter__container--selectedFilters{
+    display:none;
+}

@@ -1,13 +1,26 @@
+.flexCol--desktop__navbar--logo {
+    padding-right: 16px;
+}
+
+.flexRowContent--desktop__recomendados--elementos {
+    justify-content: center;
+    gap            : 13px;
+}
+
+.flexRowContent--desktop__recomendados--elementos .stretchChildrenWidth {
+    width: auto !important;
+}
+
+/*Mega Menu*/
 .flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-menuContainerNav) {
     background-color: #FFFFFF;
     width           : 300px;
 }
 
-/*Titulos del Menu*/
-/* .flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-menuContainerNav .fw7){
-    background-color: #FFFFFF;
-    width: 300px;
-} */
+.flexRowContent--desktop__header--navbar .flexColChild--desktop__navbar--menu {
+    height: 18px !important;
+}
+
 .flexCol--desktop__navbar--menu :global(.vtex-mega-menu-2-x-menuItem) {
     &:hover {
         background-color: #FFE6D3;
@@ -48,4 +61,14 @@
 .flexCol--desktop__navbar--menu :global(.vtex-sticky-layout-0-x-container) {
 
     position: static;
+}
+
+/*Configuracion ancho nombre del producto*/
+.flexRowContent--global__row-product-list-top .stretchChildrenWidth:first-child{
+    align-items: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 10px;
 }

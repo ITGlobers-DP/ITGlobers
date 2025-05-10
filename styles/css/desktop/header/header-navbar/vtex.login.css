@@ -1,23 +1,23 @@
-.container :global(.vtex-button__label) {
-    padding: 0;
-}
+@media screen and (min-width:1026px) and (max-width:1920px) {
 
-.container :global(.vtex-button):hover {
-    background-color: transparent;
-}
+    /*LOGIN EMAIL*/
 
-.container :global(.vtex-button__label) {
-    height          : 40px;
-    width           : 80px;
-    border-radius   : 40px;
-    background-color: black;
-    text-align      : center;
-    margin-left     : 16px;
-}
+    .contentForm {
+        /* width: 100%; */
+        width  : 423px;
+        padding: 0 28px;
+    }
 
-.label {
-    padding       : 0;
-    text-transform: capitalize;
-    color         : #ffffff;
-    font-size     : 14px;
+    .container :global(.vtex-button){
+        margin-left: 16px;
+    }
+    
+
+    .portalWrapper--global__login :global(.justify-start):first-child{
+        left: 90vw !important;
+    }
+    
+}
+.container :global(.vtex-button__label){
+    margin: 0 !important;
 }

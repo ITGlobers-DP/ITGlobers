@@ -1,0 +1,113 @@
+{
+  
+  "product-specification-group#global__table-specification": {
+    "props": {
+      "blockClass": [
+        "table"
+      ]
+    },
+    "children": [
+      "rich-text#title__Specification",
+      "flex-layout.row#spec-group"
+    ]
+  },
+  "flex-layout.row#spec-group": {
+    "props": {
+      "blockClass": "productSpecificationGroup"
+    },
+    "children": [
+      "flex-layout.col#spec-group"
+    ]
+  },
+  "flex-layout.col#spec-group": {
+    "props": {
+      "blockClass": [
+        "spec-group"
+      ]
+    },
+    "children": [
+      // "flex-layout.row#spec-group-name",
+      "product-specification#product-specification"
+    ]
+  },
+  // "flex-layout.row#spec-group-name": {
+  //   "props": {
+  //     "blockClass": "productSpecificationGroupName"
+  //   },
+  //   "children": [
+  //     "product-specification-text#group"
+  //   ]
+  // },
+  "product-specification#product-specification": {
+    "props": {
+      "blockClass": [
+        "product-specification"
+      ]
+    },
+    "children": [
+      "flex-layout.row#spec-item"
+    ]
+  },
+  //Especificacion y valor
+  "flex-layout.row#spec-item": {
+    "props": {
+      "blockClass": "spec-item"
+    },
+    "children": [
+      "flex-layout.col#spec-name",
+      "flex-layout.col#spec-value"
+    ]
+  },
+  "flex-layout.col#spec-name": {
+    "props": {
+      "blockClass": "productSpecificationName",
+      "width": {
+        "mobile": "50%",
+        "desktop": "25%"
+      }
+    },
+    "children": [
+      "product-specification-text#specification"
+    ]
+  },
+  "flex-layout.col#spec-value": {
+    "props": {
+      "blockClass": "productSpecificationValue"
+    },
+    "children": [
+      "product-specification-values#product-specification-values"
+    ]
+  },
+  "product-specification-values#product-specification-values": {
+    "props": {
+      "blockClass": [
+        "product-specification-values"
+      ]
+    },
+    "children": [
+      "product-specification-text#value"
+    ]
+  },
+  // "product-specification-text#group": {
+  //   "props": {
+  //     "message": "{groupName}",
+  //     "blockClass": ["group"]
+  //   }
+  // },
+  "product-specification-text#specification": {
+    "props": {
+      "message": "{specificationName}",
+      "blockClass": [
+        "specification"
+      ]
+    }
+  },
+  "product-specification-text#value": {
+    "props": {
+      "message": "{specificationValue}",
+      "blockClass": [
+        "value"
+      ]
+    }
+  }
+}

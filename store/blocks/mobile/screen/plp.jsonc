@@ -1,0 +1,25 @@
+{
+    "search-result-layout.mobile#mobile__searh-result": {
+        "children": [
+            "flex-layout.row#global__content-breadcrumb",
+            "search-title.v2#global__search--title",
+            "flex-layout.row#mobile__search--filters",
+            "search-content#global__search--layout"
+        ],
+        "props": {
+            "blockClass": "mobile__searh-result",
+            "preventRouteChange": true
+        }
+    },
+    "flex-layout.row#mobile__search--filters": {
+        "children": [
+            "order-by.v2#global__search--order",
+            "filter-navigator.v3#global__search--filter"
+        ],
+        "props": {
+            "blockClass": [
+                "mobile__search--filters"
+            ]
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@media screen and (min-width:1026px) and (max-width:1980px) {
+    .flexRow--global__product-main {
+        padding: 24px 72px 0 72px !important;
+        margin-bottom: 40px;
+    }
+
+
+    .flexColChild--global__product-info :global(.vtex-button) {
+        width           : 312px !important;
+
+    }
+
+    .flexRow--productSpecificationGroup {
+        padding: 0 72px !important;
+    }
+    
+    
+}

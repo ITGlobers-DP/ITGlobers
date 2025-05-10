@@ -1,0 +1,22 @@
+{
+    "responsive-layout.desktop#desktop__pdp--slider": {
+        "props":{
+            "blockClass":[
+                "desktop__pdp--slider"
+            ]
+        },
+        "children": [
+            "product-images#desktop__product--images"
+        ]
+    },
+    
+    "product-images#desktop__product--images": {
+        "props": {
+            "displayThumbnailsArrows": true,
+            "blockClass": [
+                "desktop__product--images"
+            ]
+        }
+    }
+    
+}

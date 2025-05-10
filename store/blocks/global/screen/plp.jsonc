@@ -1,0 +1,90 @@
+{
+    "store.search#global__store--search": {
+        "title": "pagina global busqueda",
+        "blocks": [
+            "search-result-layout#global__search--result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default",
+                "blockClass": [
+                    "global__store--search"
+                ]
+            }
+        }
+    },
+    "store.search#department": {
+        "title": "busqueda departamentos",
+        "blocks": [
+            "search-result-layout#global__search--result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default",
+                "blockClass": [
+                    "department"
+                ]
+            }
+        }
+    },
+    "store.search#category": {
+        "title": "busqueda categoria",
+        "blocks": [
+            "search-result-layout#global__search--result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default",
+                "blockClass": [
+                    "category"
+                ]
+            }
+        }
+    },
+    "store.search#subcategory": {
+        "title": "busqueda subcategoria",
+        "blocks": [
+            "search-result-layout#global__search--result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default",
+                "blockClass": [
+                    "subcategory"
+                ]
+            }
+        }
+    },
+    "store.search#brand": {
+        "title": "busqueda marca",
+        "blocks": [
+            "search-result-layout#global__search--result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default",
+                "blockClass": [
+                    "brand"
+                ]
+            }
+        }
+    },
+    "search-result-layout#global__search--result-layout": {
+        "title": "lista resultados",
+        "props": {
+            "blockClass": [
+                "global__search--result-layout"
+            ]
+        },
+        "blocks": [
+            "search-result-layout.desktop#desktop__searh-result",
+            "search-result-layout.mobile#mobile__searh-result",
+            "search-not-found-layout"
+        ]
+    }
+}

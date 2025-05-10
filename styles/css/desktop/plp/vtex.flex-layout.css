@@ -1,0 +1,59 @@
+.flexRowContent--global__contenedor-resultado .stretchChildrenWidth {
+    width          : auto !important;
+    justify-content: space-between;
+}
+
+.flexRowContent--global__contenedor-resultado {
+
+    justify-content: space-between;
+}
+
+.flexColChild--desktop__column-title-total {
+    width  : auto !important;
+    padding: 0;
+}
+
+.flexCol--desktop__column-title-total :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    font-size: 20px;
+}
+
+.flexCol--desktop__column-title-total :global(.vtex-search-result-3-x-totalProducts--layout) {
+    font-size  : 14px;
+    font-weight: 300;
+    color      : #1D2734;
+}
+
+.flexCol--desktop__column-title-total :global(.vtex-search-result-3-x-totalProductsMessage) {
+    font-size     : 14px;
+    font-weight   : 300;
+    color         : #1D2734;
+    text-transform: lowercase;
+
+}
+
+.flexCol--desktop__column-title-total :global(.vtex-search-result-3-x-totalProductsMessage)::after {
+    content: " encontrados";
+}
+
+/*filtros y galeria*/
+
+.flexRow--global__row--search-layout .stretchChildrenWidth:first-child {
+    width: auto !important;
+
+}
+
+.flexRow--global__row--search-layout .stretchChildrenWidth:last-child {
+    flex: 1;
+}
+
+
+@media screen and (min-width:1026px) and (max-width:1920px) {
+    .flexRowContent--global__gallery--product-summary {
+        gap: 10px;
+    }
+
+    .flexRowContent--global__row--search-layout :global(.vtex-flex-layout-0-x-flexCol--desktop__content--search-layout) {
+
+        margin-left: 74px;
+    }
+}

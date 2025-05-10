@@ -1,0 +1,15 @@
+
+
+.link{
+    color: #8E8A92;
+    text-transform: lowercase;
+}
+
+
+.arrow:last-child .link{
+    color: #1D2734;
+}
+.homeLink{
+    padding: 0;
+}
+

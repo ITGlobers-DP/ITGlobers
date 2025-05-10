@@ -1,0 +1,29 @@
+{
+    "product-summary.shelf#global__gallery--product": {
+        "children": [
+            "flex-layout.row#global__gallery--product-summary"
+        ],
+        "props": {
+            "blockClass": "global__gallery--product"
+        }
+    },
+    "flex-layout.row#global__gallery--product-summary": {
+        "children": [
+            "product-summary-image",
+            "flex-layout.col#global__gallery-info"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "global__gallery--product-summary"
+        }
+    },
+    "flex-layout.col#global__gallery-info": {
+        "children": [
+            "product-summary-description",
+            "product-summary-price"
+        ],
+        "props": {
+            "blockClass": "global__gallery-info"
+        }
+    }
+}

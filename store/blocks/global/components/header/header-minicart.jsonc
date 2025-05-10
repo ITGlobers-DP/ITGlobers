@@ -1,0 +1,140 @@
+{
+    "minicart.v2#global__minicart": {
+        "props": {
+            "MinicartIcon": "icon-cart#global__minicart-icon"
+        },
+        "children": [
+            "minicart-base-content#global__minicart-content"
+        ]
+    },
+    "icon-cart#global__minicart-icon": {
+        "props": {
+            "size": 24,
+            "blockClass": [
+                "global__minicart-icon"
+            ]
+        }
+    },
+    "minicart-base-content#global__minicart-content": {
+        "props": {
+            "size": 24,
+            "blockClass": [
+                "global__minicart-content"
+            ]
+        },
+        "blocks": [
+            "minicart-empty-state#global__minicart-empty"
+        ],
+        "children": [
+            "minicart-product-list#global__minicart-list",
+            "flex-layout.row#global__row-minicart-footer"
+        ]
+    },
+    "flex-layout.row#global__row-minicart-footer": {
+        "props": {
+        
+        },
+        "children": [
+            "flex-layout.col#global__col-minicart-footer"
+        ]
+    },
+    "flex-layout.col#global__col-minicart-footer": {
+        "props": {
+            "blockClass": "global__col-minicart-footer"
+        },
+        "children": [
+            "minicart-summary#global__minicart-summary",
+            "minicart-checkout-button#global__minicart-checkout"
+        ]
+    },
+    "minicart-product-list#global__minicart-list": {
+        "props": {
+            "blockClass": "global__minicart-list"
+        },
+        "blocks": [
+            "product-list#global__minicartv1"
+        ]
+    },
+    "minicart-summary#global__minicart-summary": {
+        "props": {
+            "blockClass": "global__minicart-summary"
+        },
+        "blocks": [
+            "checkout-summary.compact#global__minicart-checkout-summary-compact"
+        ]
+    },
+    "minicart-checkout-button#global__minicart-checkout": {
+        "props": {
+            "finishShoppingButtonLink": "/checkout/#/orderform",
+            "blockClass": "global__minicart-checkout"
+        }
+    },
+    "checkout-summary.compact#global__minicart-checkout-summary-compact": {
+        "children": [
+            "summary-totalizers#global__minicart-summary-totalizer"
+        ],
+        "props": {
+            "totalizersToShow": [
+                "Items",
+                "Discounts"
+            ],
+            "blockClass": "global__minicart-checkout-summary-compact"
+        }
+    },
+    "summary-totalizers#global__minicart-summary-totalizer": {
+        "props": {
+            "showTotal": true,
+            "showDeliveryTotal": false,
+            "blockClass": "global__minicart-summary-totalizer"
+        }
+    },
+    "minicart-empty-state#global__minicart-empty": {
+        "props": {
+            "blockClass": "global__minicart-empty"
+        },
+        "children": [
+            "flex-layout.row#global__row-minicart-empty-state"
+        ]
+    },
+    "flex-layout.row#global__row-minicart-empty-state": {
+        "props": {
+            "blockClass": "global__row-minicart-empty-state"
+        },
+        "children": [
+            "flex-layout.col#global__col-minicart-empty-state"
+        ]
+    },
+    "flex-layout.col#global__col-minicart-empty-state": {
+        "children": [
+            "icon-cart#global__minicart-empty-state",
+            "rich-text#global__minicart-text-default-empty-state",
+            "rich-text#global__minicart-subtext--default-empty-state"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "rowGap": 5,
+            "blockClass": "global__col-minicart-empty-state"
+        }
+    },
+    "icon-cart#global__minicart-empty-state": {
+        "props": {
+            "id":"hpa-cart-empty",
+            "size": 200,
+            "blockClass": "global__minicart-empty-state"
+        }
+    },
+    
+    "rich-text#global__minicart-text-default-empty-state": {
+        "props": {
+            "text": "¿Por qué tan solo?",
+            "blockClass": "global__minicart-default-empty-state"
+        }
+    },
+    "rich-text#global__minicart-subtext--default-empty-state": {
+        "props": {
+            "text": "Tenemos ofertas del 50% este mes",
+            "blockClass": "global__minicart-subtext--default-empty-state"
+        } 
+    }
+}
